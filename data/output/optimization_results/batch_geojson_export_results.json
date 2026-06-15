@@ -1,0 +1,51 @@
+[
+  {
+    "vehicle_id": "Е691ЕК550",
+    "trip_id": 1,
+    "initial_geojson_status": "success",
+    "glpk_geojson_status": "success",
+    "error_message": null
+  },
+  {
+    "vehicle_id": "Е691ЕК550",
+    "trip_id": 2,
+    "initial_geojson_status": "success",
+    "glpk_geojson_status": "error",
+    "error_message": "glpk: Не найден файл: C:\\Users\\Welcome\\uir_backend\\data\\output\\optimization_results\\optimized_glpk_Е691ЕК550_trip_2_summary.json"
+  },
+  {
+    "vehicle_id": "Е691ЕК550",
+    "trip_id": 3,
+    "initial_geojson_status": "success",
+    "glpk_geojson_status": "error",
+    "error_message": "glpk: Не найден файл: C:\\Users\\Welcome\\uir_backend\\data\\output\\optimization_results\\optimized_glpk_Е691ЕК550_trip_3_summary.json"
+  },
+  {
+    "vehicle_id": "Е864ВР550",
+    "trip_id": 1,
+    "initial_geojson_status": "success",
+    "glpk_geojson_status": "error",
+    "error_message": "glpk: Не найден файл: C:\\Users\\Welcome\\uir_backend\\data\\output\\optimization_results\\optimized_glpk_Е864ВР550_trip_1_summary.json"
+  },
+  {
+    "vehicle_id": "Е864ВР550",
+    "trip_id": 2,
+    "initial_geojson_status": "success",
+    "glpk_geojson_status": "error",
+    "error_message": "glpk: Не найден файл: C:\\Users\\Welcome\\uir_backend\\data\\output\\optimization_results\\optimized_glpk_Е864ВР550_trip_2_summary.json"
+  },
+  {
+    "vehicle_id": "М564НМ790",
+    "trip_id": 1,
+    "initial_geojson_status": "success",
+    "glpk_geojson_status": "error",
+    "error_message": "glpk: Не найден файл: C:\\Users\\Welcome\\uir_backend\\data\\output\\optimization_results\\optimized_glpk_М564НМ790_trip_1_summary.json"
+  },
+  {
+    "vehicle_id": "М564НМ790",
+    "trip_id": 2,
+    "initial_geojson_status": "success",
+    "glpk_geojson_status": "error",
+    "error_message": "glpk: Не найден файл: C:\\Users\\Welcome\\uir_backend\\data\\output\\optimization_results\\optimized_glpk_М564НМ790_trip_2_summary.json"
+  }
+]

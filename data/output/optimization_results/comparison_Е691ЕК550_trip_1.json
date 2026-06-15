@@ -1,0 +1,26 @@
+{
+  "vehicle_id": "Е691ЕК550",
+  "trip_id": 1,
+  "initial_distance_km": 104.893,
+  "greedy_distance_km": 53.551,
+  "distance_saved_km": 51.342,
+  "distance_saved_pct": 48.95,
+  "initial_time_min": 159.4,
+  "greedy_time_min": 65.5,
+  "time_saved_min": 93.9,
+  "time_saved_pct": 58.91,
+  "initial_method": "valhalla_segmented_original_order",
+  "optimized_method": "greedy_nearest_neighbor_path",
+  "greedy_path_nodes": [
+    "U1",
+    "U2",
+    "U4",
+    "U3",
+    "U8",
+    "U6",
+    "U9",
+    "U5",
+    "U7",
+    "U10"
+  ]
+}

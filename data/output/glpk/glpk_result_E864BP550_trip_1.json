@@ -1,0 +1,56 @@
+{
+  "vehicle_id": "Е864ВР550",
+  "trip_id": 1,
+  "method": "glpk_mtz_path",
+  "objective_km": 53.568,
+  "total_time_sec": 3640,
+  "total_time_min": 60.7,
+  "selected_arcs_count": 5,
+  "path_nodes": [
+    "U1",
+    "U2",
+    "U3",
+    "U5",
+    "U4",
+    "U6"
+  ],
+  "start_node": "U1",
+  "finish_node": "U6",
+  "selected_arcs": [
+    {
+      "from_node": "U1",
+      "to_node": "U2",
+      "distance_km": 26.108,
+      "time_sec": 1527,
+      "time_min": 25.4
+    },
+    {
+      "from_node": "U2",
+      "to_node": "U3",
+      "distance_km": 1.257,
+      "time_sec": 132,
+      "time_min": 2.2
+    },
+    {
+      "from_node": "U3",
+      "to_node": "U5",
+      "distance_km": 2.593,
+      "time_sec": 353,
+      "time_min": 5.9
+    },
+    {
+      "from_node": "U4",
+      "to_node": "U6",
+      "distance_km": 21.693,
+      "time_sec": 1349,
+      "time_min": 22.5
+    },
+    {
+      "from_node": "U5",
+      "to_node": "U4",
+      "distance_km": 1.917,
+      "time_sec": 279,
+      "time_min": 4.7
+    }
+  ]
+}

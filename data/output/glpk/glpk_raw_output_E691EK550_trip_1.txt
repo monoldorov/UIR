@@ -1,0 +1,64 @@
+GLPSOL: GLPK LP/MIP Solver, v4.65
+Parameter(s) specified in the command line:
+ -m C:\Users\Welcome\uir_backend\models\tsp_path.mod -d C:\Users\Welcome\uir_backend\data\output\glpk\trip_E691EK550_trip_1.dat
+Reading model section from C:\Users\Welcome\uir_backend\models\tsp_path.mod...
+C:\Users\Welcome\uir_backend\models\tsp_path.mod:58: warning: final NL missing before end of file
+58 lines were read
+Reading data section from C:\Users\Welcome\uir_backend\data\output\glpk\trip_E691EK550_trip_1.dat...
+196 lines were read
+Generating TotalCost...
+Generating StartOut...
+Generating StartIn...
+Generating FinishIn...
+Generating FinishOut...
+Generating StopIn...
+Generating StopOut...
+Generating StartOrder...
+Generating SubtourElimination...
+Model has been successfully generated
+GLPK Integer Optimizer, v4.65
+94 rows, 100 columns, 487 non-zeros
+90 integer variables, all of which are binary
+Preprocessing...
+90 rows, 82 columns, 354 non-zeros
+73 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+01  ratio =  1.000e+01
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 89
+Solving LP relaxation...
+GLPK Simplex Optimizer, v4.65
+90 rows, 82 columns, 354 non-zeros
+      0: obj =   9.913400000e+01 inf =   9.200e+01 (17)
+     22: obj =   6.395040000e+01 inf =   3.331e-16 (0)
+*    55: obj =   3.540360000e+01 inf =   1.443e-15 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++    55: mip =     not found yet >=              -inf        (1; 0)
++   225: >>>>>   7.771100000e+01 >=   4.066216667e+01  47.7% (25; 1)
++   338: >>>>>   7.068100000e+01 >=   4.078263333e+01  42.3% (43; 2)
++   635: >>>>>   5.515600000e+01 >=   4.142230000e+01  24.9% (79; 9)
++  1485: >>>>>   5.508000000e+01 >=   4.193440000e+01  23.9% (168; 40)
++  1953: >>>>>   5.442200000e+01 >=   4.215975000e+01  22.5% (234; 53)
++  3310: >>>>>   5.352500000e+01 >=   4.279670000e+01  20.0% (358; 104)
++ 22798: >>>>>   5.343200000e+01 >=   5.324100000e+01   0.4% (50; 3295)
++ 22880: mip =   5.343200000e+01 >=     tree is empty   0.0% (0; 3649)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   0.4 secs
+Memory used: 1.6 Mb (1631883 bytes)
+Objective_km=53.432000
+SelectedArcsBegin
+U1,U4,20.963000
+U2,U10,6.678000
+U3,U8,1.229000
+U4,U3,1.120000
+U5,U7,4.149000
+U6,U9,1.026000
+U7,U2,11.807000
+U8,U6,1.684000
+U9,U5,4.776000
+SelectedArcsEnd
+Model has been successfully processed
+

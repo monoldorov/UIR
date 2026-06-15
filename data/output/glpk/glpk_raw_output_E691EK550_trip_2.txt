@@ -1,0 +1,59 @@
+GLPSOL: GLPK LP/MIP Solver, v4.65
+Parameter(s) specified in the command line:
+ -m C:\Users\Welcome\uir_backend\models\tsp_path.mod -d C:\Users\Welcome\uir_backend\data\output\glpk\trip_E691EK550_trip_2.dat
+Reading model section from C:\Users\Welcome\uir_backend\models\tsp_path.mod...
+C:\Users\Welcome\uir_backend\models\tsp_path.mod:58: warning: final NL missing before end of file
+58 lines were read
+Reading data section from C:\Users\Welcome\uir_backend\data\output\glpk\trip_E691EK550_trip_2.dat...
+128 lines were read
+Generating TotalCost...
+Generating StartOut...
+Generating StartIn...
+Generating FinishIn...
+Generating FinishOut...
+Generating StopIn...
+Generating StopOut...
+Generating StartOrder...
+Generating SubtourElimination...
+Model has been successfully generated
+GLPK Integer Optimizer, v4.65
+60 rows, 64 columns, 295 non-zeros
+56 integer variables, all of which are binary
+Preprocessing...
+56 rows, 50 columns, 206 non-zeros
+43 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  8.000e+00  ratio =  8.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 55
+Solving LP relaxation...
+GLPK Simplex Optimizer, v4.65
+56 rows, 50 columns, 206 non-zeros
+      0: obj =   3.759100000e+01 inf =   1.400e+01 (11)
+     13: obj =   5.179700000e+01 inf =   0.000e+00 (0)
+*    33: obj =   1.494800000e+01 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++    33: mip =     not found yet >=              -inf        (1; 0)
++    70: >>>>>   4.435600000e+01 >=   1.586375000e+01  64.2% (7; 0)
++   117: >>>>>   4.423500000e+01 >=   1.903225000e+01  57.0% (12; 1)
++   197: >>>>>   4.166400000e+01 >=   2.208200000e+01  47.0% (20; 3)
++   281: >>>>>   4.010300000e+01 >=   2.292450000e+01  42.8% (28; 6)
++  1247: mip =   4.010300000e+01 >=     tree is empty   0.0% (0; 249)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   0.0 secs
+Memory used: 0.4 Mb (450269 bytes)
+Objective_km=40.103000
+SelectedArcsBegin
+U1,U4,20.963000
+U2,U8,8.673000
+U3,U2,1.348000
+U4,U6,1.319000
+U5,U7,4.852000
+U6,U5,1.671000
+U7,U3,1.277000
+SelectedArcsEnd
+Model has been successfully processed
+

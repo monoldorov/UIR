@@ -1,0 +1,10 @@
+{
+  "vehicle_id": "Е864ВР550",
+  "trip_id": 1,
+  "segments_count": 36,
+  "nodes_count": 37,
+  "total_distance_km": 59.367,
+  "total_time_sec": 4407,
+  "total_time_min": 73.5,
+  "method": "valhalla_segmented_original_order"
+}

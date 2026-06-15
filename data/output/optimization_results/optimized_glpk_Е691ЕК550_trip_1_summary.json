@@ -1,0 +1,21 @@
+{
+  "vehicle_id": "Е691ЕК550",
+  "trip_id": 1,
+  "method": "glpk_mtz_path",
+  "path_nodes": [
+    "U1",
+    "U4",
+    "U3",
+    "U8",
+    "U6",
+    "U9",
+    "U5",
+    "U7",
+    "U2",
+    "U10"
+  ],
+  "segments_count": 9,
+  "total_distance_km": 53.432,
+  "total_time_sec": 3955,
+  "total_time_min": 65.9
+}

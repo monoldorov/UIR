@@ -1,0 +1,20 @@
+{
+  "start_node": "U1",
+  "end_node": "U8",
+  "visited_stop_nodes_count": 6,
+  "path_nodes": [
+    "U1",
+    "U6",
+    "U4",
+    "U2",
+    "U3",
+    "U7",
+    "U5",
+    "U8"
+  ],
+  "path_edges_count": 7,
+  "total_distance_km": 32.158,
+  "total_time_sec": 2323,
+  "total_time_min": 38.7,
+  "method": "greedy_nearest_neighbor_path"
+}

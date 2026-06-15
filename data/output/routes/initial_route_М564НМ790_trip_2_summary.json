@@ -1,0 +1,10 @@
+{
+  "vehicle_id": "М564НМ790",
+  "trip_id": 2,
+  "segments_count": 63,
+  "nodes_count": 64,
+  "total_distance_km": 88.185,
+  "total_time_sec": 7712,
+  "total_time_min": 128.5,
+  "method": "valhalla_segmented_original_order"
+}

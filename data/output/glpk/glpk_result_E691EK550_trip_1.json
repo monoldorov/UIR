@@ -1,0 +1,88 @@
+{
+  "vehicle_id": "Е691ЕК550",
+  "trip_id": 1,
+  "method": "glpk_mtz_path",
+  "objective_km": 53.432,
+  "total_time_sec": 3955,
+  "total_time_min": 65.9,
+  "selected_arcs_count": 9,
+  "path_nodes": [
+    "U1",
+    "U4",
+    "U3",
+    "U8",
+    "U6",
+    "U9",
+    "U5",
+    "U7",
+    "U2",
+    "U10"
+  ],
+  "start_node": "U1",
+  "finish_node": "U10",
+  "selected_arcs": [
+    {
+      "from_node": "U1",
+      "to_node": "U4",
+      "distance_km": 20.963,
+      "time_sec": 1232,
+      "time_min": 20.5
+    },
+    {
+      "from_node": "U2",
+      "to_node": "U10",
+      "distance_km": 6.678,
+      "time_sec": 550,
+      "time_min": 9.2
+    },
+    {
+      "from_node": "U3",
+      "to_node": "U8",
+      "distance_km": 1.229,
+      "time_sec": 208,
+      "time_min": 3.5
+    },
+    {
+      "from_node": "U4",
+      "to_node": "U3",
+      "distance_km": 1.12,
+      "time_sec": 210,
+      "time_min": 3.5
+    },
+    {
+      "from_node": "U5",
+      "to_node": "U7",
+      "distance_km": 4.149,
+      "time_sec": 348,
+      "time_min": 5.8
+    },
+    {
+      "from_node": "U6",
+      "to_node": "U9",
+      "distance_km": 1.026,
+      "time_sec": 113,
+      "time_min": 1.9
+    },
+    {
+      "from_node": "U7",
+      "to_node": "U2",
+      "distance_km": 11.807,
+      "time_sec": 663,
+      "time_min": 11.1
+    },
+    {
+      "from_node": "U8",
+      "to_node": "U6",
+      "distance_km": 1.684,
+      "time_sec": 219,
+      "time_min": 3.6
+    },
+    {
+      "from_node": "U9",
+      "to_node": "U5",
+      "distance_km": 4.776,
+      "time_sec": 412,
+      "time_min": 6.9
+    }
+  ]
+}

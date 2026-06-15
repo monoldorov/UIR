@@ -1,0 +1,15 @@
+{
+  "vehicle_id": "Е864ВР550",
+  "trip_id": 1,
+  "nodes_count_total": 6,
+  "stop_nodes_count": 4,
+  "arcs_count": 30,
+  "start_node": "U1",
+  "end_node": "U6",
+  "stop_nodes": [
+    "U2",
+    "U3",
+    "U4",
+    "U5"
+  ]
+}

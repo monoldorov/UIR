@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.vscode/
+.idea/
+
+*.log
+
+# QGIS / local
+*.qgz~
+*.qgs~
+
+# OS junk
+.DS_Store
+Thumbs.db

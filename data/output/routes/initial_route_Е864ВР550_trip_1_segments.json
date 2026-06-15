@@ -1,0 +1,5046 @@
+[
+  {
+    "segment_no": 1,
+    "from": {
+      "label": "START",
+      "point_type": "START",
+      "point_id": null,
+      "stop_seq": null,
+      "address": "ул. Вагоноремонтная",
+      "lat": 55.902619,
+      "lon": 37.529597
+    },
+    "to": {
+      "label": "STOP_1",
+      "point_type": "STOP",
+      "point_id": "10119520",
+      "stop_seq": 1,
+      "address": "Маршала Жукова пр-т, 46 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.47
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.902619,
+            "lon": 37.529597,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.47,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive east.",
+                "verbal_succinct_transition_instruction": "Drive east.",
+                "verbal_pre_transition_instruction": "Drive east.",
+                "verbal_post_transition_instruction": "Continue for 600 meters.",
+                "time": 111.42,
+                "length": 0.618,
+                "cost": 145.487,
+                "begin_shape_index": 0,
+                "end_shape_index": 19,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left onto Вагоноремонтная улица.",
+                "verbal_transition_alert_instruction": "Turn left onto Вагоноремонтная улица.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left onto Вагоноремонтная улица.",
+                "verbal_post_transition_instruction": "Continue for 800 meters.",
+                "street_names": [
+                  "Вагоноремонтная улица"
+                ],
+                "time": 74.924,
+                "length": 0.79,
+                "cost": 140.225,
+                "begin_shape_index": 19,
+                "end_shape_index": 44,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 24,
+                "instruction": "Keep left to stay on Вагоноремонтная улица.",
+                "verbal_transition_alert_instruction": "Keep left to stay on Вагоноремонтная улица.",
+                "verbal_pre_transition_instruction": "Keep left to stay on Вагоноремонтная улица. Then Turn left onto Дмитровское шоссе.",
+                "verbal_post_transition_instruction": "Continue for 30 meters.",
+                "street_names": [
+                  "Вагоноремонтная улица"
+                ],
+                "time": 2.371,
+                "length": 0.026,
+                "cost": 11.315,
+                "begin_shape_index": 44,
+                "end_shape_index": 46,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left onto Дмитровское шоссе.",
+                "verbal_transition_alert_instruction": "Turn left onto Дмитровское шоссе.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left onto Дмитровское шоссе.",
+                "verbal_post_transition_instruction": "Continue for 500 meters.",
+                "street_names": [
+                  "Дмитровское шоссе"
+                ],
+                "time": 42.28,
+                "length": 0.467,
+                "cost": 81.669,
+                "begin_shape_index": 46,
+                "end_shape_index": 82,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 9,
+                "instruction": "Bear right to stay on Дмитровское шоссе.",
+                "verbal_transition_alert_instruction": "Bear right to stay on Дмитровское шоссе.",
+                "verbal_succinct_transition_instruction": "Bear right.",
+                "verbal_pre_transition_instruction": "Bear right to stay on Дмитровское шоссе.",
+                "verbal_post_transition_instruction": "Continue for 800 meters.",
+                "street_names": [
+                  "Дмитровское шоссе"
+                ],
+                "time": 43.221,
+                "length": 0.816,
+                "cost": 55.643,
+                "begin_shape_index": 82,
+                "end_shape_index": 110,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 23,
+                "instruction": "Keep right to take M-8 toward Мытищи/Ярославлб/Мкад-Восток.",
+                "verbal_transition_alert_instruction": "Keep right to take M-8.",
+                "verbal_pre_transition_instruction": "Keep right to take M-8 toward Мытищи, Ярославлб.",
+                "verbal_post_transition_instruction": "Continue for 400 meters.",
+                "time": 17.631,
+                "length": 0.366,
+                "cost": 23.037,
+                "begin_shape_index": 110,
+                "end_shape_index": 134,
+                "sign": {},
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 21,
+                "instruction": "Take the М-10 exit toward Шереметьево/ С. Петербург/ МКАД-Запад.",
+                "verbal_transition_alert_instruction": "Take the М-10 exit.",
+                "verbal_pre_transition_instruction": "Take the М-10 exit toward Шереметьево,  С. Петербург.",
+                "verbal_post_transition_instruction": "Continue for 7 kilometers.",
+                "street_names": [
+                  "E 22"
+                ],
+                "time": 284.084,
+                "length": 7.255,
+                "cost": 338.106,
+                "begin_shape_index": 134,
+                "end_shape_index": 233,
+                "sign": {
+                  "exit_branch_elements": [
+                    {
+                      "text": "М-10"
+                    }
+                  ],
+                  "exit_toward_elements": [
+                    {
+                      "text": "Шереметьево"
+                    },
+                    {
+                      "text": " С. Петербург"
+                    },
+                    {
+                      "text": " МКАД-Запад"
+                    }
+                  ]
+                },
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 20,
+                "instruction": "Take exit 74 on the right toward Ленинградское шоссе/Москва-центр.",
+                "verbal_transition_alert_instruction": "Take exit 74 on the right.",
+                "verbal_pre_transition_instruction": "Take exit 74 on the right toward Ленинградское шоссе, Москва-центр.",
+                "verbal_post_transition_instruction": "Continue for 9 kilometers.",
+                "street_names": [
+                  "Ленинградское шоссе"
+                ],
+                "time": 449.165,
+                "length": 9.338,
+                "cost": 555.888,
+                "begin_shape_index": 233,
+                "end_shape_index": 366,
+                "sign": {
+                  "exit_number_elements": [
+                    {
+                      "text": "74"
+                    }
+                  ],
+                  "exit_toward_elements": [
+                    {
+                      "text": "Ленинградское шоссе"
+                    },
+                    {
+                      "text": "Москва-центр"
+                    }
+                  ]
+                },
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 20,
+                "instruction": "Take the exit on the right.",
+                "verbal_transition_alert_instruction": "Take the exit on the right.",
+                "verbal_pre_transition_instruction": "Take the exit on the right.",
+                "time": 22.105,
+                "length": 0.311,
+                "cost": 33.892,
+                "begin_shape_index": 366,
+                "end_shape_index": 389,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 16,
+                "instruction": "Bear left onto Ленинградский проспект (дублёр).",
+                "verbal_transition_alert_instruction": "Bear left onto Ленинградский проспект (дублёр).",
+                "verbal_succinct_transition_instruction": "Bear left. Then Keep right to take улица Алабяна.",
+                "verbal_pre_transition_instruction": "Bear left onto Ленинградский проспект (дублёр). Then Keep right to take улица Алабяна.",
+                "verbal_post_transition_instruction": "Continue for 200 meters.",
+                "street_names": [
+                  "Ленинградский проспект (дублёр)"
+                ],
+                "time": 11.992,
+                "length": 0.163,
+                "cost": 54.669,
+                "begin_shape_index": 389,
+                "end_shape_index": 394,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 23,
+                "instruction": "Keep right to take улица Алабяна.",
+                "verbal_transition_alert_instruction": "Keep right to take улица Алабяна.",
+                "verbal_pre_transition_instruction": "Keep right to take улица Алабяна.",
+                "verbal_post_transition_instruction": "Continue for 2.5 kilometers.",
+                "street_names": [
+                  "улица Алабяна"
+                ],
+                "time": 167.646,
+                "length": 2.277,
+                "cost": 281.43,
+                "begin_shape_index": 394,
+                "end_shape_index": 442,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 16,
+                "instruction": "Bear left onto улица Народного Ополчения.",
+                "verbal_transition_alert_instruction": "Bear left onto улица Народного Ополчения.",
+                "verbal_succinct_transition_instruction": "Bear left.",
+                "verbal_pre_transition_instruction": "Bear left onto улица Народного Ополчения.",
+                "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+                "street_names": [
+                  "улица Народного Ополчения"
+                ],
+                "time": 103.608,
+                "length": 1.409,
+                "cost": 155.164,
+                "begin_shape_index": 442,
+                "end_shape_index": 471,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 20,
+                "instruction": "Take the exit on the right.",
+                "verbal_transition_alert_instruction": "Take the exit on the right.",
+                "verbal_pre_transition_instruction": "Take the exit on the right.",
+                "time": 24.855,
+                "length": 0.351,
+                "cost": 40.119,
+                "begin_shape_index": 471,
+                "end_shape_index": 480,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 23,
+                "instruction": "Keep right to take проспект Маршала Жукова.",
+                "verbal_transition_alert_instruction": "Keep right to take проспект Маршала Жукова.",
+                "verbal_pre_transition_instruction": "Keep right to take проспект Маршала Жукова.",
+                "street_names": [
+                  "проспект Маршала Жукова"
+                ],
+                "time": 38.886,
+                "length": 0.53,
+                "cost": 102.214,
+                "begin_shape_index": 480,
+                "end_shape_index": 506,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right onto бульвар Генерала Карбышева.",
+                "verbal_transition_alert_instruction": "Turn right onto бульвар Генерала Карбышева.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right onto бульвар Генерала Карбышева.",
+                "verbal_post_transition_instruction": "Continue for 800 meters.",
+                "street_names": [
+                  "бульвар Генерала Карбышева"
+                ],
+                "time": 80.921,
+                "length": 0.839,
+                "cost": 182.192,
+                "begin_shape_index": 506,
+                "end_shape_index": 523,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left.",
+                "verbal_transition_alert_instruction": "Turn left.",
+                "verbal_succinct_transition_instruction": "Turn left. Then Turn left onto бульвар Генерала Карбышева.",
+                "verbal_pre_transition_instruction": "Turn left. Then Turn left onto бульвар Генерала Карбышева.",
+                "verbal_post_transition_instruction": "Continue for 80 meters.",
+                "time": 7.38,
+                "length": 0.082,
+                "cost": 20.055,
+                "begin_shape_index": 523,
+                "end_shape_index": 524,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left onto бульвар Генерала Карбышева.",
+                "verbal_transition_alert_instruction": "Turn left onto бульвар Генерала Карбышева.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left onto бульвар Генерала Карбышева.",
+                "verbal_post_transition_instruction": "Continue for 500 meters.",
+                "street_names": [
+                  "бульвар Генерала Карбышева"
+                ],
+                "time": 44.645,
+                "length": 0.468,
+                "cost": 117.447,
+                "begin_shape_index": 524,
+                "end_shape_index": 538,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 538,
+                "end_shape_index": 538,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.775655,
+              "min_lon": 37.442721,
+              "max_lat": 55.909026,
+              "max_lon": 37.546158,
+              "time": 1527.142,
+              "length": 26.108,
+              "cost": 2338.559
+            },
+            "shape": "an_siBqwrqfAnEg]|CsYi@qC{SkNfZ}{B`CY|f@rY`QbKtFdDfHtDzIdDpJd@lOkAtMfHhK|MfCnIdTpk@rEhIvGzGx^eaDnAwJxFof@pEa^bDaWr@oFrAgO^gHZkNCaJAmFGk^Icn@C_`@Ee\\QmoASek@GkKMgQiAmfAKqKGkIAoWVwKR{He@sNy@{HiDbBcDjAgD~@uE|@yEl@iD?qDP_@ByT~Aiv@tFeD`@{BKaBe@uBoAgA{Ai@iBa@kCWuDNeDz@aEhHmVzAgFbBeDfC_DhCeCvB{AdDiAhAUdBKhG[rFYh@C`Iu@~QaBxDQfF_@tFhBzAhBt@`DPlDEhDWjC{@~BaA`Am@f@{D~B_Q|@wRdA}g@lB}r@jEwUvAo\\hBe}@`DkZbAwBJuC?yn@`AmZg@qV_AmG[c@AWCkGm@}UwDsGsD{CsAkEoCeCaCcBkBaA_BeCeFgCaG}BaIqJag@uFiV}DcPmFsMgGsJqFwGkG_G{DmBaFgBgGmAaE]eJDyIdBoFnCiCjBaJjLaGtIgFzKkExK_E`O{CzT{@~UUbTn@fYlBnRpDjQ~FnQxEfLpGhMlLdSpGhJfEnIrFnRpChQfC~_@jEtv@bHhnAbNriCxDvn@bE`l@vBhX~B`XxD`]zMtfAdIph@xL`q@rIpc@lLhy@lNrx@xYlyAfTpaA~XhhA~Z|eAvo@`uBvQ|f@dTtn@faBn|E~aFxcOdaAtuCjC|Hh|@fiCbeAd`DbhBjmFlMn_@|IrW`Npa@n\\vbA`Qlh@bp@nlBnOxd@vUxv@dW`~@`Srv@hR|y@xDpQzJxd@|Gv_@jHda@`Xr~A~Ipi@fVzyA`Gd_@f]lxB|Mj{@|_AnbGnSdoAnSlpAxKls@nKtp@`Kjp@dKrw@hH~p@zG|q@tGj{@pCp`@lEb{@dE~aApCvgAjBzpA~AvmAdAhvFXzbAfAzu@vBxkAhAjm@~Apn@tClu@|Clr@~GdcAzI~aAdIpu@pAtK~N|oAlFvb@fBbe@D`GK~EWbFi@nEy@hEsAxDoBjD_CxBoCxAwCp@uCZ{ERuDM_DU{Bo@sBqAqA{AqAaCw@}Ck@{DSiD?uDNuDZkDbAwE|BeGzXqj@zt@yaA|J{M|iA}{An^}e@xSyXjDgEtIkK~R_Vv]ka@~EoGjb@ah@fTgYn{@qjAjlBmkCbeC_wDvo@wdAdGgJv_@sl@bQyV|LyOzLmMhKcK`UoRzYeTjAy@jNmJzu@ke@xlAiv@p{@ih@xSaMfc@mWjXsO`PeKngAcq@pMoI`[iRdHeEpy@ig@jeBsdA~q@sa@xIoF`gCq|Apd@oXbTgMtJiGlf@{YlHiE`p@}`@ns@gc@nb@wV`QaKz]iTbr@cb@td@}YtLwHxO_Kht@gc@hs@ua@xy@og@`dA}o@~k@i\\~t@}c@x_Akk@f_E_lCzbA_r@nqCinBxkAqw@paAgw@voAmbAhu@ml@jOwLlfAcz@lXySjTuPbXwStReOf]yW``Agt@fa@}[bQ_N|u@ap@b|@qq@z|@gq@|WmTpc@k^bj@{a@rpAy}@h\\uVx_BgmA~BgBlWuRtUiQlf@g_@lTqPtxBwbBtXgTnUiQhq@eh@`k@ac@~MgKns@aj@`DaCncCwjBdHmFld@{\\rTuMvIqFzI}E~DyBtTqKlCsAtBw@vC]`CThBh@|CjApAr@|EbDfLzGtDj@rAMpAu@tAiB~AsDz@}Dl@aCfBsLjEcWxBk[hAeLbFge@nAeKnNq|@fI_UhCwFpAwAhAs@dBe@vBHlA^|AfAbOxOzQlRdYvZvEfFvHdIbDlDtKvJl[fXdYhVhShQlVvSjVzTpM~LfMrKhVrTnMnTlMvUv`@~y@xGnNpIpQvj@djArbAnuBbr@jxAxj@|jApPj\\fY`k@dOnY|Src@hXbh@tWzf@pi@zcAdYxk@~Zpl@zj@rhAnPf[lPxZ`MbU~h@~bAdYpi@Tb@`Zde@rWrf@dYzi@l\\xo@bXbi@~FzJfI|K~ItL`LvMlLjMpIpI`JbI~ItGdJxG|JvGhKtFjNlGlN|Fdd@rOp`@hQhdBfr@pPzG`b@xPlq@xYfs@n\\jFdC`{@r`@xP`HvFtBdc@`[b^rWfJrFrFhDtB|@vn@dXzKxExFbCdYxL~An@`B`A~ApAtA~AdAdBbAvB~@dC|@tCx@hDn@`E`@hEVbFBjJc@jOk@`JsAfS_BlUsG~z@gDl`@mGnt@oDt`@gCpYqDz_@uD``@cGvq@uDdb@oHkCyp@uUy`@cPaj@iTik@_VqNcG}n@kWeBs@c`@yOqWoKq]qNkMiFm]qNoT_Jwj@eQqDoAaA[sJzmAz@Xr|@zZ`X`LxZnMfMjFtCnA|TjJv@\\b^dObV~JfBv@lH~C~NlGnJtD"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.775655,
+          "min_lon": 37.442721,
+          "max_lat": 55.909026,
+          "max_lon": 37.546158,
+          "time": 1527.142,
+          "length": 26.108,
+          "cost": 2338.559
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 2,
+    "from": {
+      "label": "STOP_1",
+      "point_type": "STOP",
+      "point_id": "10119520",
+      "stop_seq": 1,
+      "address": "Маршала Жукова пр-т, 46 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.47
+    },
+    "to": {
+      "label": "STOP_2",
+      "point_type": "STOP",
+      "point_id": "10118046",
+      "stop_seq": 2,
+      "address": "Маршала Жукова пр-т, 46 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.47
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.47,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.47,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north on бульвар Генерала Карбышева.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north on бульвар Генерала Карбышева. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "street_names": [
+                  "бульвар Генерала Карбышева"
+                ],
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780079,
+              "min_lon": 37.469488,
+              "max_lat": 55.780079,
+              "max_lon": 37.469488,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "_npkiB_r}mfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780079,
+          "min_lon": 37.469488,
+          "max_lat": 55.780079,
+          "max_lon": 37.469488,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 3,
+    "from": {
+      "label": "STOP_2",
+      "point_type": "STOP",
+      "point_id": "10118046",
+      "stop_seq": 2,
+      "address": "Маршала Жукова пр-т, 46 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.47
+    },
+    "to": {
+      "label": "STOP_3",
+      "point_type": "STOP",
+      "point_id": "10119321",
+      "stop_seq": 3,
+      "address": "Маршала Жукова пр-т., д. 48 корп. 1",
+      "lat": 55.78,
+      "lon": 37.47
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.47,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.47,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north on бульвар Генерала Карбышева.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north on бульвар Генерала Карбышева. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "street_names": [
+                  "бульвар Генерала Карбышева"
+                ],
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780079,
+              "min_lon": 37.469488,
+              "max_lat": 55.780079,
+              "max_lon": 37.469488,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "_npkiB_r}mfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780079,
+          "min_lon": 37.469488,
+          "max_lat": 55.780079,
+          "max_lon": 37.469488,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 4,
+    "from": {
+      "label": "STOP_3",
+      "point_type": "STOP",
+      "point_id": "10119321",
+      "stop_seq": 3,
+      "address": "Маршала Жукова пр-т., д. 48 корп. 1",
+      "lat": 55.78,
+      "lon": 37.47
+    },
+    "to": {
+      "label": "STOP_4",
+      "point_type": "STOP",
+      "point_id": "10120496",
+      "stop_seq": 4,
+      "address": "Маршала Жукова д 64 корп. 1",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.47,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive south on бульвар Генерала Карбышева.",
+                "verbal_succinct_transition_instruction": "Drive south. Then, in 400 meters, Turn right onto проспект Маршала Жукова.",
+                "verbal_pre_transition_instruction": "Drive south on бульвар Генерала Карбышева. Then, in 400 meters, Turn right onto проспект Маршала Жукова.",
+                "verbal_post_transition_instruction": "Continue for 400 meters.",
+                "street_names": [
+                  "бульвар Генерала Карбышева"
+                ],
+                "time": 33.192,
+                "length": 0.366,
+                "cost": 93.114,
+                "begin_shape_index": 0,
+                "end_shape_index": 13,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right onto проспект Маршала Жукова.",
+                "verbal_transition_alert_instruction": "Turn right onto проспект Маршала Жукова.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right onto проспект Маршала Жукова.",
+                "verbal_post_transition_instruction": "Continue for 500 meters.",
+                "street_names": [
+                  "проспект Маршала Жукова"
+                ],
+                "time": 42.402,
+                "length": 0.501,
+                "cost": 84.117,
+                "begin_shape_index": 13,
+                "end_shape_index": 24,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right onto улица Генерала Глаголева.",
+                "verbal_transition_alert_instruction": "Turn right onto улица Генерала Глаголева.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right onto улица Генерала Глаголева.",
+                "verbal_post_transition_instruction": "Continue for 300 meters.",
+                "street_names": [
+                  "улица Генерала Глаголева"
+                ],
+                "time": 28.422,
+                "length": 0.254,
+                "cost": 60.417,
+                "begin_shape_index": 24,
+                "end_shape_index": 31,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left.",
+                "verbal_transition_alert_instruction": "Turn left.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left.",
+                "verbal_post_transition_instruction": "Continue for 80 meters.",
+                "time": 16.558,
+                "length": 0.079,
+                "cost": 122.397,
+                "begin_shape_index": 31,
+                "end_shape_index": 37,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left.",
+                "verbal_transition_alert_instruction": "Turn left.",
+                "verbal_succinct_transition_instruction": "Turn left. Then, in 60 meters, Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Turn left. Then, in 60 meters, Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for 60 meters.",
+                "time": 12.396,
+                "length": 0.057,
+                "cost": 24.755,
+                "begin_shape_index": 37,
+                "end_shape_index": 40,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 40,
+                "end_shape_index": 40,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.776908,
+              "min_lon": 37.459837,
+              "max_lat": 55.780521,
+              "max_lon": 37.469488,
+              "time": 132.972,
+              "length": 1.257,
+              "cost": 384.802
+            },
+            "shape": "_npkiB_r}mfAtAh@hAb@tAj@bA`@`l@pUr_Al_@tMjFvD|AvWdKbHnClHrCnEdBlGbC{Cf]}AhR_Efg@oCh\\sHz|@_Df_@yCz]oB`VyF|q@{JteAaOx{AgHiDuRmHgMuFcL_F}K{EqCoAa~@u^YhDsBrVQpB[|DwArPgBhTxDzAz@ZdV`K"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.776908,
+          "min_lon": 37.459837,
+          "max_lat": 55.780521,
+          "max_lon": 37.469488,
+          "time": 132.972,
+          "length": 1.257,
+          "cost": 384.802
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 5,
+    "from": {
+      "label": "STOP_4",
+      "point_type": "STOP",
+      "point_id": "10120496",
+      "stop_seq": 4,
+      "address": "Маршала Жукова д 64 корп. 1",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_5",
+      "point_type": "STOP",
+      "point_id": "10120599",
+      "stop_seq": 5,
+      "address": "Маршала Жукова д 64 корп. 1",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.780026,
+              "max_lon": 37.459837,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "ujpkiB{vjmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.780026,
+          "max_lon": 37.459837,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 6,
+    "from": {
+      "label": "STOP_5",
+      "point_type": "STOP",
+      "point_id": "10120599",
+      "stop_seq": 5,
+      "address": "Маршала Жукова д 64 корп. 1",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_6",
+      "point_type": "STOP",
+      "point_id": "10118487",
+      "stop_seq": 6,
+      "address": "Маршала Жукова пр-т, 68 к 2 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.780026,
+              "max_lon": 37.459837,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "ujpkiB{vjmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.780026,
+          "max_lon": 37.459837,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 7,
+    "from": {
+      "label": "STOP_6",
+      "point_type": "STOP",
+      "point_id": "10118487",
+      "stop_seq": 6,
+      "address": "Маршала Жукова пр-т, 68 к 2 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_7",
+      "point_type": "STOP",
+      "point_id": "10119424",
+      "stop_seq": 7,
+      "address": "Маршала Жукова пр-т, 70 к 1 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.780026,
+              "max_lon": 37.459837,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "ujpkiB{vjmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.780026,
+          "max_lon": 37.459837,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 8,
+    "from": {
+      "label": "STOP_7",
+      "point_type": "STOP",
+      "point_id": "10119424",
+      "stop_seq": 7,
+      "address": "Маршала Жукова пр-т, 70 к 1 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_8",
+      "point_type": "STOP",
+      "point_id": "10471772",
+      "stop_seq": 8,
+      "address": "83-й квартал (Живописная д.4 к.4) АО \"ГК \"ЕКС\"",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.780026,
+              "max_lon": 37.459837,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "ujpkiB{vjmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.780026,
+          "max_lon": 37.459837,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 9,
+    "from": {
+      "label": "STOP_8",
+      "point_type": "STOP",
+      "point_id": "10471772",
+      "stop_seq": 8,
+      "address": "83-й квартал (Живописная д.4 к.4) АО \"ГК \"ЕКС\"",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_9",
+      "point_type": "STOP",
+      "point_id": "10118622",
+      "stop_seq": 9,
+      "address": "Живописная ул, 4 к 2 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.780026,
+              "max_lon": 37.459837,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "ujpkiB{vjmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.780026,
+          "max_lon": 37.459837,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 10,
+    "from": {
+      "label": "STOP_9",
+      "point_type": "STOP",
+      "point_id": "10118622",
+      "stop_seq": 9,
+      "address": "Живописная ул, 4 к 2 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_10",
+      "point_type": "STOP",
+      "point_id": "10119064",
+      "stop_seq": 10,
+      "address": "Живописная ул., 6к1",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.780026,
+              "max_lon": 37.459837,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "ujpkiB{vjmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.780026,
+          "max_lon": 37.459837,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 11,
+    "from": {
+      "label": "STOP_10",
+      "point_type": "STOP",
+      "point_id": "10119064",
+      "stop_seq": 10,
+      "address": "Живописная ул., 6к1",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_11",
+      "point_type": "STOP",
+      "point_id": "10117725",
+      "stop_seq": 11,
+      "address": "Живописная ул, 6 к 1 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.780026,
+              "max_lon": 37.459837,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "ujpkiB{vjmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.780026,
+          "max_lon": 37.459837,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 12,
+    "from": {
+      "label": "STOP_11",
+      "point_type": "STOP",
+      "point_id": "10117725",
+      "stop_seq": 11,
+      "address": "Живописная ул, 6 к 1 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_12",
+      "point_type": "STOP",
+      "point_id": "10119221",
+      "stop_seq": 12,
+      "address": "Маршала Тухачевского ул., д. 55",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.780026,
+              "max_lon": 37.459837,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "ujpkiB{vjmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.780026,
+          "max_lon": 37.459837,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 13,
+    "from": {
+      "label": "STOP_12",
+      "point_type": "STOP",
+      "point_id": "10119221",
+      "stop_seq": 12,
+      "address": "Маршала Тухачевского ул., д. 55",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_12",
+      "point_type": "STOP",
+      "point_id": "10119221",
+      "stop_seq": 12,
+      "address": "Маршала Тухачевского ул., д. 55",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.780026,
+              "max_lon": 37.459837,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "ujpkiB{vjmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.780026,
+          "max_lon": 37.459837,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 14,
+    "from": {
+      "label": "STOP_12",
+      "point_type": "STOP",
+      "point_id": "10119221",
+      "stop_seq": 12,
+      "address": "Маршала Тухачевского ул., д. 55",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_13",
+      "point_type": "STOP",
+      "point_id": "10119525",
+      "stop_seq": 13,
+      "address": "Маршала Тухачевского ул, 51 (КП №2) (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.780026,
+              "max_lon": 37.459837,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "ujpkiB{vjmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.780026,
+          "max_lon": 37.459837,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 15,
+    "from": {
+      "label": "STOP_13",
+      "point_type": "STOP",
+      "point_id": "10119525",
+      "stop_seq": 13,
+      "address": "Маршала Тухачевского ул, 51 (КП №2) (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_14",
+      "point_type": "STOP",
+      "point_id": "10119776",
+      "stop_seq": 14,
+      "address": "Маршала Тухачевского ул, 51 (КП №1) (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.780026,
+              "max_lon": 37.459837,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "ujpkiB{vjmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.780026,
+          "max_lon": 37.459837,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 16,
+    "from": {
+      "label": "STOP_14",
+      "point_type": "STOP",
+      "point_id": "10119776",
+      "stop_seq": 14,
+      "address": "Маршала Тухачевского ул, 51 (КП №1) (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_15",
+      "point_type": "STOP",
+      "point_id": "10118065",
+      "stop_seq": 15,
+      "address": "Генерала Глаголева ул, 19 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.780026,
+              "max_lon": 37.459837,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "ujpkiB{vjmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.780026,
+          "max_lon": 37.459837,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 17,
+    "from": {
+      "label": "STOP_15",
+      "point_type": "STOP",
+      "point_id": "10118065",
+      "stop_seq": 15,
+      "address": "Генерала Глаголева ул, 19 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_16",
+      "point_type": "STOP",
+      "point_id": "10119069",
+      "stop_seq": 16,
+      "address": "Генерала Глаголева ул, 2 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.780026,
+              "max_lon": 37.459837,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "ujpkiB{vjmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.780026,
+          "max_lon": 37.459837,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 18,
+    "from": {
+      "label": "STOP_16",
+      "point_type": "STOP",
+      "point_id": "10119069",
+      "stop_seq": 16,
+      "address": "Генерала Глаголева ул, 2 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_17",
+      "point_type": "STOP",
+      "point_id": "10119749",
+      "stop_seq": 17,
+      "address": "Генерала Глаголева ул, 5 к 1 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.780026,
+              "max_lon": 37.459837,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "ujpkiB{vjmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.780026,
+          "max_lon": 37.459837,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 19,
+    "from": {
+      "label": "STOP_17",
+      "point_type": "STOP",
+      "point_id": "10119749",
+      "stop_seq": 17,
+      "address": "Генерала Глаголева ул, 5 к 1 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_18",
+      "point_type": "STOP",
+      "point_id": "10118192",
+      "stop_seq": 18,
+      "address": "Генерала Глаголева ул, 16 к 2 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.47
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "right",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.47,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 2,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then, in 60 meters, Turn right.",
+                "verbal_pre_transition_instruction": "Drive north. Then, in 60 meters, Turn right.",
+                "verbal_post_transition_instruction": "Continue for 60 meters.",
+                "time": 10.279,
+                "length": 0.057,
+                "cost": 18.155,
+                "begin_shape_index": 0,
+                "end_shape_index": 3,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right.",
+                "verbal_transition_alert_instruction": "Turn right.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right.",
+                "verbal_post_transition_instruction": "Continue for 80 meters.",
+                "time": 19.676,
+                "length": 0.079,
+                "cost": 57.797,
+                "begin_shape_index": 3,
+                "end_shape_index": 9,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left onto улица Генерала Глаголева.",
+                "verbal_transition_alert_instruction": "Turn left onto улица Генерала Глаголева.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left onto улица Генерала Глаголева.",
+                "verbal_post_transition_instruction": "Continue for 200 meters.",
+                "street_names": [
+                  "улица Генерала Глаголева"
+                ],
+                "time": 18.344,
+                "length": 0.181,
+                "cost": 52.319,
+                "begin_shape_index": 9,
+                "end_shape_index": 15,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right.",
+                "verbal_transition_alert_instruction": "Turn right.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right.",
+                "verbal_post_transition_instruction": "Continue for 100 meters.",
+                "time": 30.376,
+                "length": 0.138,
+                "cost": 174.816,
+                "begin_shape_index": 15,
+                "end_shape_index": 28,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left.",
+                "verbal_transition_alert_instruction": "Turn left.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left.",
+                "verbal_post_transition_instruction": "Continue for 80 meters.",
+                "time": 15.692,
+                "length": 0.075,
+                "cost": 26.981,
+                "begin_shape_index": 28,
+                "end_shape_index": 30,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right.",
+                "verbal_transition_alert_instruction": "Turn right.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right.",
+                "verbal_post_transition_instruction": "Continue for 400 meters.",
+                "time": 85.379,
+                "length": 0.441,
+                "cost": 225.69,
+                "begin_shape_index": 30,
+                "end_shape_index": 49,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right onto бульвар Генерала Карбышева.",
+                "verbal_transition_alert_instruction": "Turn right onto бульвар Генерала Карбышева.",
+                "verbal_succinct_transition_instruction": "Turn right. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Turn right onto бульвар Генерала Карбышева. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for 70 meters.",
+                "street_names": [
+                  "бульвар Генерала Карбышева"
+                ],
+                "time": 11.32,
+                "length": 0.068,
+                "cost": 43.247,
+                "begin_shape_index": 49,
+                "end_shape_index": 52,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 52,
+                "end_shape_index": 52,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.782225,
+              "max_lon": 37.469794,
+              "time": 191.068,
+              "length": 1.04,
+              "cost": 599.009
+            },
+            "shape": "ujpkiB{vjmfAeVaK{@[yD{AfBiTvAsPZ}DPqBrBsVXiDir@yXcOaGs@[cIaDoMgFuB}@pAgPtCc^bAeM`@gF`@{EDe@|@aLvAcQ@WfAyMFw@L}AL}Awd@{PcBo@tBkW~Ck`@jMw~Ao@_FbBgT~BmYjBuU~d@bQdCSjAkB|@sDPwAlBaTbA{KfA{LlA_NbBwNlBcQf@sElH~C~NlGnJtD"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.782225,
+          "max_lon": 37.469794,
+          "time": 191.068,
+          "length": 1.04,
+          "cost": 599.009
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 20,
+    "from": {
+      "label": "STOP_18",
+      "point_type": "STOP",
+      "point_id": "10118192",
+      "stop_seq": 18,
+      "address": "Генерала Глаголева ул, 16 к 2 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.47
+    },
+    "to": {
+      "label": "STOP_19",
+      "point_type": "STOP",
+      "point_id": "10118452",
+      "stop_seq": 19,
+      "address": "Генерала Глаголева ул., д.14 А к.1 (ЗВОНИТЬ +7 950 727-13-77)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.47,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive south on бульвар Генерала Карбышева.",
+                "verbal_succinct_transition_instruction": "Drive south. Then, in 400 meters, Turn right onto проспект Маршала Жукова.",
+                "verbal_pre_transition_instruction": "Drive south on бульвар Генерала Карбышева. Then, in 400 meters, Turn right onto проспект Маршала Жукова.",
+                "verbal_post_transition_instruction": "Continue for 400 meters.",
+                "street_names": [
+                  "бульвар Генерала Карбышева"
+                ],
+                "time": 33.192,
+                "length": 0.366,
+                "cost": 93.114,
+                "begin_shape_index": 0,
+                "end_shape_index": 13,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right onto проспект Маршала Жукова.",
+                "verbal_transition_alert_instruction": "Turn right onto проспект Маршала Жукова.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right onto проспект Маршала Жукова.",
+                "verbal_post_transition_instruction": "Continue for 500 meters.",
+                "street_names": [
+                  "проспект Маршала Жукова"
+                ],
+                "time": 42.402,
+                "length": 0.501,
+                "cost": 84.117,
+                "begin_shape_index": 13,
+                "end_shape_index": 24,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right onto улица Генерала Глаголева.",
+                "verbal_transition_alert_instruction": "Turn right onto улица Генерала Глаголева.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right onto улица Генерала Глаголева.",
+                "verbal_post_transition_instruction": "Continue for 300 meters.",
+                "street_names": [
+                  "улица Генерала Глаголева"
+                ],
+                "time": 28.422,
+                "length": 0.254,
+                "cost": 60.417,
+                "begin_shape_index": 24,
+                "end_shape_index": 31,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left.",
+                "verbal_transition_alert_instruction": "Turn left.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left.",
+                "verbal_post_transition_instruction": "Continue for 80 meters.",
+                "time": 16.558,
+                "length": 0.079,
+                "cost": 122.397,
+                "begin_shape_index": 31,
+                "end_shape_index": 37,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left.",
+                "verbal_transition_alert_instruction": "Turn left.",
+                "verbal_succinct_transition_instruction": "Turn left. Then, in 60 meters, Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Turn left. Then, in 60 meters, Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for 60 meters.",
+                "time": 12.396,
+                "length": 0.057,
+                "cost": 24.755,
+                "begin_shape_index": 37,
+                "end_shape_index": 40,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 40,
+                "end_shape_index": 40,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.776908,
+              "min_lon": 37.459837,
+              "max_lat": 55.780521,
+              "max_lon": 37.469488,
+              "time": 132.972,
+              "length": 1.257,
+              "cost": 384.802
+            },
+            "shape": "_npkiB_r}mfAtAh@hAb@tAj@bA`@`l@pUr_Al_@tMjFvD|AvWdKbHnClHrCnEdBlGbC{Cf]}AhR_Efg@oCh\\sHz|@_Df_@yCz]oB`VyF|q@{JteAaOx{AgHiDuRmHgMuFcL_F}K{EqCoAa~@u^YhDsBrVQpB[|DwArPgBhTxDzAz@ZdV`K"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.776908,
+          "min_lon": 37.459837,
+          "max_lat": 55.780521,
+          "max_lon": 37.469488,
+          "time": 132.972,
+          "length": 1.257,
+          "cost": 384.802
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 21,
+    "from": {
+      "label": "STOP_19",
+      "point_type": "STOP",
+      "point_id": "10118452",
+      "stop_seq": 19,
+      "address": "Генерала Глаголева ул., д.14 А к.1 (ЗВОНИТЬ +7 950 727-13-77)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_20",
+      "point_type": "STOP",
+      "point_id": "10474660",
+      "stop_seq": 20,
+      "address": "Генерала Глаголева ул, 11 к 1 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.780026,
+              "max_lon": 37.459837,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "ujpkiB{vjmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.780026,
+          "max_lon": 37.459837,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 22,
+    "from": {
+      "label": "STOP_20",
+      "point_type": "STOP",
+      "point_id": "10474660",
+      "stop_seq": 20,
+      "address": "Генерала Глаголева ул, 11 к 1 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_21",
+      "point_type": "STOP",
+      "point_id": "10117771",
+      "stop_seq": 21,
+      "address": "Генерала Глаголева ул, 13 к 2 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.780026,
+              "max_lon": 37.459837,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "ujpkiB{vjmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.780026,
+          "max_lon": 37.459837,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 23,
+    "from": {
+      "label": "STOP_21",
+      "point_type": "STOP",
+      "point_id": "10117771",
+      "stop_seq": 21,
+      "address": "Генерала Глаголева ул, 13 к 2 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_22",
+      "point_type": "STOP",
+      "point_id": "10118158",
+      "stop_seq": 22,
+      "address": "Глаголева Генерала ул., д. 14 (КП2)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.780026,
+              "max_lon": 37.459837,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "ujpkiB{vjmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.780026,
+          "max_lon": 37.459837,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 24,
+    "from": {
+      "label": "STOP_22",
+      "point_type": "STOP",
+      "point_id": "10118158",
+      "stop_seq": 22,
+      "address": "Глаголева Генерала ул., д. 14 (КП2)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_23",
+      "point_type": "STOP",
+      "point_id": "10119392",
+      "stop_seq": 23,
+      "address": "Генерала Глаголева ул, 15 к 1 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.780026,
+              "max_lon": 37.459837,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "ujpkiB{vjmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.780026,
+          "max_lon": 37.459837,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 25,
+    "from": {
+      "label": "STOP_23",
+      "point_type": "STOP",
+      "point_id": "10119392",
+      "stop_seq": 23,
+      "address": "Генерала Глаголева ул, 15 к 1 (ГБУ МКД)",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_24",
+      "point_type": "STOP",
+      "point_id": "10475314",
+      "stop_seq": 24,
+      "address": "Живописная ул., 8 к.1",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.780026,
+              "max_lon": 37.459837,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "ujpkiB{vjmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.780026,
+          "max_lon": 37.459837,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 26,
+    "from": {
+      "label": "STOP_24",
+      "point_type": "STOP",
+      "point_id": "10475314",
+      "stop_seq": 24,
+      "address": "Живописная ул., 8 к.1",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_25",
+      "point_type": "STOP",
+      "point_id": "10118244",
+      "stop_seq": 25,
+      "address": "Маршала Тухачевского ул., 55",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.780026,
+              "max_lon": 37.459837,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "ujpkiB{vjmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.780026,
+          "max_lon": 37.459837,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 27,
+    "from": {
+      "label": "STOP_25",
+      "point_type": "STOP",
+      "point_id": "10118244",
+      "stop_seq": 25,
+      "address": "Маршала Тухачевского ул., 55",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_26",
+      "point_type": "STOP",
+      "point_id": "10120336",
+      "stop_seq": 26,
+      "address": "Маршала Тухачевского ул, 56 к 3 (ГБУ МКД)",
+      "lat": 55.79,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "right",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.79,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 2,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Turn left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Turn left.",
+                "verbal_post_transition_instruction": "Continue for 60 meters.",
+                "time": 10.279,
+                "length": 0.057,
+                "cost": 18.155,
+                "begin_shape_index": 0,
+                "end_shape_index": 3,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left.",
+                "verbal_transition_alert_instruction": "Turn left.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left.",
+                "verbal_post_transition_instruction": "Continue for 300 meters.",
+                "time": 56.63,
+                "length": 0.302,
+                "cost": 124.669,
+                "begin_shape_index": 3,
+                "end_shape_index": 17,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right onto Живописная улица.",
+                "verbal_transition_alert_instruction": "Turn right onto Живописная улица.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right onto Живописная улица.",
+                "verbal_post_transition_instruction": "Continue for 300 meters.",
+                "street_names": [
+                  "Живописная улица"
+                ],
+                "time": 29.234,
+                "length": 0.263,
+                "cost": 63.436,
+                "begin_shape_index": 17,
+                "end_shape_index": 26,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 24,
+                "instruction": "Keep left to stay on Живописная улица.",
+                "verbal_transition_alert_instruction": "Keep left to stay on Живописная улица.",
+                "verbal_pre_transition_instruction": "Keep left to stay on Живописная улица.",
+                "verbal_post_transition_instruction": "Continue for 700 meters.",
+                "street_names": [
+                  "Живописная улица"
+                ],
+                "time": 69.899,
+                "length": 0.687,
+                "cost": 136.951,
+                "begin_shape_index": 26,
+                "end_shape_index": 51,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right onto улица Паршина.",
+                "verbal_transition_alert_instruction": "Turn right onto улица Паршина.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right onto улица Паршина.",
+                "verbal_post_transition_instruction": "Continue for 400 meters.",
+                "street_names": [
+                  "улица Паршина"
+                ],
+                "time": 39.474,
+                "length": 0.366,
+                "cost": 83.991,
+                "begin_shape_index": 51,
+                "end_shape_index": 65,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left.",
+                "verbal_transition_alert_instruction": "Turn left.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left.",
+                "verbal_post_transition_instruction": "Continue for 70 meters.",
+                "time": 16.539,
+                "length": 0.074,
+                "cost": 117.9,
+                "begin_shape_index": 65,
+                "end_shape_index": 69,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 69,
+                "end_shape_index": 69,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.454285,
+              "max_lat": 55.790019,
+              "max_lon": 37.46022,
+              "time": 222.058,
+              "length": 1.751,
+              "cost": 545.104
+            },
+            "shape": "ujpkiB{vjmfAeVaK{@[yD{Am@bHUpCYbDiG`u@{Epk@I`o@CdMKza@FnRJzSBtF?xKInF_AnMwFqB}SsHuNeFiKuDaL_Ech@aRsYkK_AY{Bo@aFUqDJeEpBcH`EkBfAYTsa@lWaJnGuEtCqOpJ{A~@uFdDgUdNwNdIoDpBeMbGqMbFy]bJsQnCeNnAqYEcM@ea@Jsg@c@mHMQ}JIeHOgNMoHo@gb@e@}Xk@q\\UuMkByz@u@u[SqLmAcs@i@s]i@m[mBn@uNdDiGmJqJbD"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.454285,
+          "max_lat": 55.790019,
+          "max_lon": 37.46022,
+          "time": 222.058,
+          "length": 1.751,
+          "cost": 545.104
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 28,
+    "from": {
+      "label": "STOP_26",
+      "point_type": "STOP",
+      "point_id": "10120336",
+      "stop_seq": 26,
+      "address": "Маршала Тухачевского ул, 56 к 3 (ГБУ МКД)",
+      "lat": 55.79,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_27",
+      "point_type": "STOP",
+      "point_id": "10474155",
+      "stop_seq": 27,
+      "address": "Маршала Тухачевского ул., 58 корп. 2",
+      "lat": 55.79,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.79,
+            "lon": 37.46,
+            "side_of_street": "right",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.79,
+            "lon": 37.46,
+            "side_of_street": "right",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 2,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the right.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the right.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 5,
+                "instruction": "Your destination is on the right.",
+                "verbal_transition_alert_instruction": "Your destination will be on the right.",
+                "verbal_pre_transition_instruction": "Your destination is on the right.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.790019,
+              "min_lon": 37.460137,
+              "max_lat": 55.790019,
+              "max_lon": 37.460137,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": 0.0
+            },
+            "shape": "e{cliBsikmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.790019,
+          "min_lon": 37.460137,
+          "max_lat": 55.790019,
+          "max_lon": 37.460137,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": 0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 29,
+    "from": {
+      "label": "STOP_27",
+      "point_type": "STOP",
+      "point_id": "10474155",
+      "stop_seq": 27,
+      "address": "Маршала Тухачевского ул., 58 корп. 2",
+      "lat": 55.79,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_28",
+      "point_type": "STOP",
+      "point_id": "10120132",
+      "stop_seq": 28,
+      "address": "Маршала Тухачевского ул, 58 (ГБУ МКД)",
+      "lat": 55.79,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.79,
+            "lon": 37.46,
+            "side_of_street": "right",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.79,
+            "lon": 37.46,
+            "side_of_street": "right",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 2,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the right.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the right.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 5,
+                "instruction": "Your destination is on the right.",
+                "verbal_transition_alert_instruction": "Your destination will be on the right.",
+                "verbal_pre_transition_instruction": "Your destination is on the right.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.790019,
+              "min_lon": 37.460137,
+              "max_lat": 55.790019,
+              "max_lon": 37.460137,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": 0.0
+            },
+            "shape": "e{cliBsikmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.790019,
+          "min_lon": 37.460137,
+          "max_lat": 55.790019,
+          "max_lon": 37.460137,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": 0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 30,
+    "from": {
+      "label": "STOP_28",
+      "point_type": "STOP",
+      "point_id": "10120132",
+      "stop_seq": 28,
+      "address": "Маршала Тухачевского ул, 58 (ГБУ МКД)",
+      "lat": 55.79,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_29",
+      "point_type": "STOP",
+      "point_id": "10120501",
+      "stop_seq": 29,
+      "address": "ШАПКИ НЕ БРАТЬ! Живописная ул., 12к1 (АО \"ДИКСИ\")",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.79,
+            "lon": 37.46,
+            "side_of_street": "right",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 2,
+                "instruction": "Drive south.",
+                "verbal_succinct_transition_instruction": "Drive south. Then Turn right onto улица Паршина.",
+                "verbal_pre_transition_instruction": "Drive south. Then Turn right onto улица Паршина.",
+                "verbal_post_transition_instruction": "Continue for 70 meters.",
+                "time": 13.4,
+                "length": 0.074,
+                "cost": 30.4,
+                "begin_shape_index": 0,
+                "end_shape_index": 4,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right onto улица Паршина.",
+                "verbal_transition_alert_instruction": "Turn right onto улица Паршина.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right onto улица Паршина.",
+                "verbal_post_transition_instruction": "Continue for 400 meters.",
+                "street_names": [
+                  "улица Паршина"
+                ],
+                "time": 39.482,
+                "length": 0.367,
+                "cost": 94.741,
+                "begin_shape_index": 4,
+                "end_shape_index": 18,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left onto Живописная улица.",
+                "verbal_transition_alert_instruction": "Turn left onto Живописная улица.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left onto Живописная улица.",
+                "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+                "street_names": [
+                  "Живописная улица"
+                ],
+                "time": 97.224,
+                "length": 0.951,
+                "cost": 187.087,
+                "begin_shape_index": 18,
+                "end_shape_index": 52,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left.",
+                "verbal_transition_alert_instruction": "Turn left.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left.",
+                "verbal_post_transition_instruction": "Continue for 300 meters.",
+                "time": 56.733,
+                "length": 0.301,
+                "cost": 203.769,
+                "begin_shape_index": 52,
+                "end_shape_index": 66,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right.",
+                "verbal_transition_alert_instruction": "Turn right.",
+                "verbal_succinct_transition_instruction": "Turn right. Then, in 60 meters, Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Turn right. Then, in 60 meters, Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for 60 meters.",
+                "time": 15.685,
+                "length": 0.057,
+                "cost": 40.155,
+                "begin_shape_index": 66,
+                "end_shape_index": 69,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 69,
+                "end_shape_index": 69,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.454285,
+              "max_lat": 55.790019,
+              "max_lon": 37.46022,
+              "time": 222.527,
+              "length": 1.751,
+              "cost": 556.154
+            },
+            "shape": "e{cliBsikmfApJcDhGlJtNeDlBo@h@l[h@r]lAbs@RpLt@t[jBxz@TtMj@p\\d@|Xn@fb@LnHNfNHdHP|JlHLrg@b@da@KbMApYDdNoArQoCx]cJpMcFdMcGnDqBvNeIfUeNtFeDzA_ApOqJtEuC`JoGra@mWXUjBgAbHaEdEqBpDK`FTzBn@~@XrYjKbh@`R`L~DhKtDtNdF|SrHvFpB~@oMHoF?yKCuFK{SGoRJ{a@BeMHao@zEqk@hGau@XcDTqCl@cHxDzAz@ZdV`K"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.454285,
+          "max_lat": 55.790019,
+          "max_lon": 37.46022,
+          "time": 222.527,
+          "length": 1.751,
+          "cost": 556.154
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 31,
+    "from": {
+      "label": "STOP_29",
+      "point_type": "STOP",
+      "point_id": "10120501",
+      "stop_seq": 29,
+      "address": "ШАПКИ НЕ БРАТЬ! Живописная ул., 12к1 (АО \"ДИКСИ\")",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_30",
+      "point_type": "STOP",
+      "point_id": "10120376",
+      "stop_seq": 30,
+      "address": "ШАПКИ не брать!! Живописная ул., 12к1",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 3,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the left.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": -0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.780026,
+              "min_lon": 37.459837,
+              "max_lat": 55.780026,
+              "max_lon": 37.459837,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": -0.0
+            },
+            "shape": "ujpkiB{vjmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.780026,
+          "min_lon": 37.459837,
+          "max_lat": 55.780026,
+          "max_lon": 37.459837,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": -0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 32,
+    "from": {
+      "label": "STOP_30",
+      "point_type": "STOP",
+      "point_id": "10120376",
+      "stop_seq": 30,
+      "address": "ШАПКИ не брать!! Живописная ул., 12к1",
+      "lat": 55.78,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_31",
+      "point_type": "STOP",
+      "point_id": "10118828",
+      "stop_seq": 31,
+      "address": "Живописная ул, 22 (ГБУ МКД)",
+      "lat": 55.79,
+      "lon": 37.45
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.78,
+            "lon": 37.46,
+            "side_of_street": "right",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.79,
+            "lon": 37.45,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 2,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Turn left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Turn left.",
+                "verbal_post_transition_instruction": "Continue for 60 meters.",
+                "time": 10.279,
+                "length": 0.057,
+                "cost": 18.155,
+                "begin_shape_index": 0,
+                "end_shape_index": 3,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left.",
+                "verbal_transition_alert_instruction": "Turn left.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left.",
+                "verbal_post_transition_instruction": "Continue for 300 meters.",
+                "time": 56.63,
+                "length": 0.302,
+                "cost": 124.669,
+                "begin_shape_index": 3,
+                "end_shape_index": 17,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left onto Живописная улица.",
+                "verbal_transition_alert_instruction": "Turn left onto Живописная улица.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left onto Живописная улица.",
+                "verbal_post_transition_instruction": "Continue for 200 meters.",
+                "street_names": [
+                  "Живописная улица"
+                ],
+                "time": 20.71,
+                "length": 0.206,
+                "cost": 46.294,
+                "begin_shape_index": 17,
+                "end_shape_index": 24,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right onto проспект Маршала Жукова.",
+                "verbal_transition_alert_instruction": "Turn right onto проспект Маршала Жукова.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right onto проспект Маршала Жукова.",
+                "verbal_post_transition_instruction": "Continue for 400 meters.",
+                "street_names": [
+                  "проспект Маршала Жукова"
+                ],
+                "time": 36.216,
+                "length": 0.355,
+                "cost": 65.186,
+                "begin_shape_index": 24,
+                "end_shape_index": 34,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right onto набережная Новикова-Прибоя.",
+                "verbal_transition_alert_instruction": "Turn right onto набережная Новикова-Прибоя.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right onto набережная Новикова-Прибоя.",
+                "verbal_post_transition_instruction": "Continue for 1 kilometer.",
+                "street_names": [
+                  "набережная Новикова-Прибоя"
+                ],
+                "time": 118.11,
+                "length": 1.056,
+                "cost": 227.605,
+                "begin_shape_index": 34,
+                "end_shape_index": 85,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left onto улица Паршина.",
+                "verbal_transition_alert_instruction": "Turn left onto улица Паршина.",
+                "verbal_succinct_transition_instruction": "Turn left. Then Turn right onto набережная Иосифа Кобзона.",
+                "verbal_pre_transition_instruction": "Turn left onto улица Паршина. Then Turn right onto набережная Иосифа Кобзона.",
+                "verbal_post_transition_instruction": "Continue for 50 meters.",
+                "street_names": [
+                  "улица Паршина"
+                ],
+                "time": 5.165,
+                "length": 0.047,
+                "cost": 13.641,
+                "begin_shape_index": 85,
+                "end_shape_index": 89,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right onto набережная Иосифа Кобзона.",
+                "verbal_transition_alert_instruction": "Turn right onto набережная Иосифа Кобзона.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right onto набережная Иосифа Кобзона.",
+                "verbal_post_transition_instruction": "Continue for 300 meters.",
+                "street_names": [
+                  "набережная Иосифа Кобзона"
+                ],
+                "time": 23.922,
+                "length": 0.265,
+                "cost": 53.142,
+                "begin_shape_index": 89,
+                "end_shape_index": 93,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right.",
+                "verbal_transition_alert_instruction": "Turn right.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right.",
+                "verbal_post_transition_instruction": "Continue for 100 meters.",
+                "time": 22.606,
+                "length": 0.123,
+                "cost": 112.597,
+                "begin_shape_index": 93,
+                "end_shape_index": 95,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right.",
+                "verbal_transition_alert_instruction": "Turn right.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right.",
+                "verbal_post_transition_instruction": "Continue for 90 meters.",
+                "time": 21.152,
+                "length": 0.088,
+                "cost": 37.827,
+                "begin_shape_index": 95,
+                "end_shape_index": 99,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right.",
+                "verbal_transition_alert_instruction": "Turn right.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right.",
+                "verbal_post_transition_instruction": "Continue for 90 meters.",
+                "time": 38.971,
+                "length": 0.093,
+                "cost": 52.095,
+                "begin_shape_index": 99,
+                "end_shape_index": 100,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 100,
+                "end_shape_index": 100,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.779064,
+              "min_lon": 37.447502,
+              "max_lat": 55.791501,
+              "max_lon": 37.460091,
+              "time": 353.765,
+              "length": 2.593,
+              "cost": 751.215
+            },
+            "shape": "ujpkiB{vjmfAeVaK{@[yD{Am@bHUpCYbDiG`u@{Epk@I`o@CdMKza@FnRJzSBtF?xKInF_AnMxUlI|OhGdG~Bl[pLbN|EjNzEtCbA}Al^mKhuAyBlZ{Gh`AyAlWk@dKkBzb@e@dT?lVPnRkEt@wKlHaRlH}PtIgR|EoHjBiEhAaDPqDRcFXcMCoKCwPCcOCy\\GmB?{DAwFAwMCgOCkGAaCAmC?{^AmBAw@AsECY?kGCyA?cJEkPEsHCqI@a\\EsIBmDAiPEgNGiMCmT?uK@{H@}N@{NBeK@_CAgOKgN?yB?s@_@Ux@iAhEBfV@jMkFl@sOXoyBIiAK?uBJ{uBdAAdDAt`@KDcNfs@D"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.779064,
+          "min_lon": 37.447502,
+          "max_lat": 55.791501,
+          "max_lon": 37.460091,
+          "time": 353.765,
+          "length": 2.593,
+          "cost": 751.215
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 33,
+    "from": {
+      "label": "STOP_31",
+      "point_type": "STOP",
+      "point_id": "10118828",
+      "stop_seq": 31,
+      "address": "Живописная ул, 22 (ГБУ МКД)",
+      "lat": 55.79,
+      "lon": 37.45
+    },
+    "to": {
+      "label": "STOP_32",
+      "point_type": "STOP",
+      "point_id": "10117545",
+      "stop_seq": 32,
+      "address": "Паршина ул., д. 10 (КП3)",
+      "lat": 55.79,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.79,
+            "lon": 37.45,
+            "side_of_street": "right",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.79,
+            "lon": 37.46,
+            "side_of_street": "left",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 2,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Turn left.",
+                "verbal_pre_transition_instruction": "Drive north. Then Turn left.",
+                "verbal_post_transition_instruction": "Continue for 90 meters.",
+                "time": 33.577,
+                "length": 0.093,
+                "cost": 36.095,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left.",
+                "verbal_transition_alert_instruction": "Turn left.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left.",
+                "verbal_post_transition_instruction": "Continue for 90 meters.",
+                "time": 17.97,
+                "length": 0.087,
+                "cost": 26.628,
+                "begin_shape_index": 1,
+                "end_shape_index": 5,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left.",
+                "verbal_transition_alert_instruction": "Turn left.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left.",
+                "verbal_post_transition_instruction": "Continue for 100 meters.",
+                "time": 24.145,
+                "length": 0.123,
+                "cost": 28.047,
+                "begin_shape_index": 5,
+                "end_shape_index": 7,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left onto набережная Иосифа Кобзона.",
+                "verbal_transition_alert_instruction": "Turn left onto набережная Иосифа Кобзона.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left onto набережная Иосифа Кобзона.",
+                "verbal_post_transition_instruction": "Continue for 300 meters.",
+                "street_names": [
+                  "набережная Иосифа Кобзона"
+                ],
+                "time": 25.6,
+                "length": 0.265,
+                "cost": 46.842,
+                "begin_shape_index": 7,
+                "end_shape_index": 11,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left onto улица Паршина.",
+                "verbal_transition_alert_instruction": "Turn left onto улица Паршина.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left onto улица Паршина.",
+                "verbal_post_transition_instruction": "Continue for 300 meters.",
+                "street_names": [
+                  "улица Паршина"
+                ],
+                "time": 36.225,
+                "length": 0.329,
+                "cost": 62.56,
+                "begin_shape_index": 11,
+                "end_shape_index": 21,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right.",
+                "verbal_transition_alert_instruction": "Turn right.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right.",
+                "verbal_post_transition_instruction": "Continue for 300 meters.",
+                "time": 46.132,
+                "length": 0.256,
+                "cost": 168.301,
+                "begin_shape_index": 21,
+                "end_shape_index": 28,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left.",
+                "verbal_transition_alert_instruction": "Turn left.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left.",
+                "verbal_post_transition_instruction": "Continue for 70 meters.",
+                "time": 15.121,
+                "length": 0.072,
+                "cost": 36.038,
+                "begin_shape_index": 28,
+                "end_shape_index": 34,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left onto Живописная улица.",
+                "verbal_transition_alert_instruction": "Turn left onto Живописная улица.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left onto Живописная улица.",
+                "verbal_post_transition_instruction": "Continue for 200 meters.",
+                "street_names": [
+                  "Живописная улица"
+                ],
+                "time": 25.12,
+                "length": 0.249,
+                "cost": 50.55,
+                "begin_shape_index": 34,
+                "end_shape_index": 40,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right onto улица Паршина.",
+                "verbal_transition_alert_instruction": "Turn right onto улица Паршина.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right onto улица Паршина.",
+                "verbal_post_transition_instruction": "Continue for 400 meters.",
+                "street_names": [
+                  "улица Паршина"
+                ],
+                "time": 39.474,
+                "length": 0.366,
+                "cost": 83.991,
+                "begin_shape_index": 40,
+                "end_shape_index": 54,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left.",
+                "verbal_transition_alert_instruction": "Turn left.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left.",
+                "verbal_post_transition_instruction": "Continue for 70 meters.",
+                "time": 16.539,
+                "length": 0.074,
+                "cost": 117.9,
+                "begin_shape_index": 54,
+                "end_shape_index": 58,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 6,
+                "instruction": "Your destination is on the left.",
+                "verbal_transition_alert_instruction": "Your destination will be on the left.",
+                "verbal_pre_transition_instruction": "Your destination is on the left.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 58,
+                "end_shape_index": 58,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.78686,
+              "min_lon": 37.447502,
+              "max_lat": 55.791501,
+              "max_lon": 37.46022,
+              "time": 279.907,
+              "length": 1.917,
+              "cost": 656.958
+            },
+            "shape": "_zcliBq~vlfAgs@EEbNu`@JeD@eA@KzuB?tBhAJnyBHrOYjFm@AkMCgVhAiETy@O_f@Uor@?oh@MupBAoBCe_@~FQ~FSvHeHdDaD~FuFrrAs@vPII_YQwXCoABiF@aBEuFeNnAqYEcM@ea@Jsg@c@mHMQ}JIeHOgNMoHo@gb@e@}Xk@q\\UuMkByz@u@u[SqLmAcs@i@s]i@m[mBn@uNdDiGmJqJbD"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.78686,
+          "min_lon": 37.447502,
+          "max_lat": 55.791501,
+          "max_lon": 37.46022,
+          "time": 279.907,
+          "length": 1.917,
+          "cost": 656.958
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 34,
+    "from": {
+      "label": "STOP_32",
+      "point_type": "STOP",
+      "point_id": "10117545",
+      "stop_seq": 32,
+      "address": "Паршина ул., д. 10 (КП3)",
+      "lat": 55.79,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_33",
+      "point_type": "STOP",
+      "point_id": "10118095",
+      "stop_seq": 33,
+      "address": "Паршина ул., д. 10 (КП4)",
+      "lat": 55.79,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.79,
+            "lon": 37.46,
+            "side_of_street": "right",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.79,
+            "lon": 37.46,
+            "side_of_street": "right",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 2,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the right.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the right.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 5,
+                "instruction": "Your destination is on the right.",
+                "verbal_transition_alert_instruction": "Your destination will be on the right.",
+                "verbal_pre_transition_instruction": "Your destination is on the right.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.790019,
+              "min_lon": 37.460137,
+              "max_lat": 55.790019,
+              "max_lon": 37.460137,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": 0.0
+            },
+            "shape": "e{cliBsikmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.790019,
+          "min_lon": 37.460137,
+          "max_lat": 55.790019,
+          "max_lon": 37.460137,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": 0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 35,
+    "from": {
+      "label": "STOP_33",
+      "point_type": "STOP",
+      "point_id": "10118095",
+      "stop_seq": 33,
+      "address": "Паршина ул., д. 10 (КП4)",
+      "lat": 55.79,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "STOP_34",
+      "point_type": "STOP",
+      "point_id": "10119764",
+      "stop_seq": 34,
+      "address": "Паршина ул., д. 10 (КП2)",
+      "lat": 55.79,
+      "lon": 37.46
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.79,
+            "lon": 37.46,
+            "side_of_street": "right",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.79,
+            "lon": 37.46,
+            "side_of_street": "right",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 2,
+                "instruction": "Drive north.",
+                "verbal_succinct_transition_instruction": "Drive north. Then Your destination will be on the right.",
+                "verbal_pre_transition_instruction": "Drive north. Then Your destination will be on the right.",
+                "verbal_post_transition_instruction": "Continue for less than 10 meters.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 0,
+                "end_shape_index": 1,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 5,
+                "instruction": "Your destination is on the right.",
+                "verbal_transition_alert_instruction": "Your destination will be on the right.",
+                "verbal_pre_transition_instruction": "Your destination is on the right.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 1,
+                "end_shape_index": 1,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": false,
+              "has_ferry": false,
+              "min_lat": 55.790019,
+              "min_lon": 37.460137,
+              "max_lat": 55.790019,
+              "max_lon": 37.460137,
+              "time": 0.0,
+              "length": 0.0,
+              "cost": 0.0
+            },
+            "shape": "e{cliBsikmfA??"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": false,
+          "has_ferry": false,
+          "min_lat": 55.790019,
+          "min_lon": 37.460137,
+          "max_lat": 55.790019,
+          "max_lon": 37.460137,
+          "time": 0.0,
+          "length": 0.0,
+          "cost": 0.0
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  },
+  {
+    "segment_no": 36,
+    "from": {
+      "label": "STOP_34",
+      "point_type": "STOP",
+      "point_id": "10119764",
+      "stop_seq": 34,
+      "address": "Паршина ул., д. 10 (КП2)",
+      "lat": 55.79,
+      "lon": 37.46
+    },
+    "to": {
+      "label": "END",
+      "point_type": "END",
+      "point_id": null,
+      "stop_seq": null,
+      "address": "Химки, Московская область",
+      "lat": 55.899135,
+      "lon": 37.498469
+    },
+    "route": {
+      "trip": {
+        "locations": [
+          {
+            "type": "break",
+            "lat": 55.79,
+            "lon": 37.46,
+            "side_of_street": "right",
+            "original_index": 0
+          },
+          {
+            "type": "break",
+            "lat": 55.899135,
+            "lon": 37.498469,
+            "side_of_street": "right",
+            "original_index": 1
+          }
+        ],
+        "legs": [
+          {
+            "maneuvers": [
+              {
+                "type": 2,
+                "instruction": "Drive south.",
+                "verbal_succinct_transition_instruction": "Drive south. Then Turn right onto улица Паршина.",
+                "verbal_pre_transition_instruction": "Drive south. Then Turn right onto улица Паршина.",
+                "verbal_post_transition_instruction": "Continue for 70 meters.",
+                "time": 13.4,
+                "length": 0.074,
+                "cost": 30.4,
+                "begin_shape_index": 0,
+                "end_shape_index": 4,
+                "verbal_multi_cue": true,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right onto улица Паршина.",
+                "verbal_transition_alert_instruction": "Turn right onto улица Паршина.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right onto улица Паршина.",
+                "verbal_post_transition_instruction": "Continue for 400 meters.",
+                "street_names": [
+                  "улица Паршина"
+                ],
+                "time": 39.482,
+                "length": 0.367,
+                "cost": 94.741,
+                "begin_shape_index": 4,
+                "end_shape_index": 18,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right onto Живописная улица.",
+                "verbal_transition_alert_instruction": "Turn right onto Живописная улица.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right onto Живописная улица.",
+                "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+                "street_names": [
+                  "Живописная улица"
+                ],
+                "time": 170.741,
+                "length": 1.62,
+                "cost": 288.134,
+                "begin_shape_index": 18,
+                "end_shape_index": 65,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right onto улица Академика Бочвара.",
+                "verbal_transition_alert_instruction": "Turn right onto улица Академика Бочвара.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right onto улица Академика Бочвара.",
+                "verbal_post_transition_instruction": "Continue for 700 meters.",
+                "street_names": [
+                  "улица Академика Бочвара"
+                ],
+                "time": 69.325,
+                "length": 0.727,
+                "cost": 126.926,
+                "begin_shape_index": 65,
+                "end_shape_index": 87,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left onto улица Маршала Новикова.",
+                "verbal_transition_alert_instruction": "Turn left onto улица Маршала Новикова.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left onto улица Маршала Новикова.",
+                "verbal_post_transition_instruction": "Continue for 200 meters.",
+                "street_names": [
+                  "улица Маршала Новикова"
+                ],
+                "time": 24.52,
+                "length": 0.21,
+                "cost": 74.518,
+                "begin_shape_index": 87,
+                "end_shape_index": 97,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 15,
+                "instruction": "Turn left onto Новощукинская улица.",
+                "verbal_transition_alert_instruction": "Turn left onto Новощукинская улица.",
+                "verbal_succinct_transition_instruction": "Turn left.",
+                "verbal_pre_transition_instruction": "Turn left onto Новощукинская улица.",
+                "verbal_post_transition_instruction": "Continue for 6 kilometers.",
+                "street_names": [
+                  "Новощукинская улица"
+                ],
+                "time": 371.923,
+                "length": 5.651,
+                "cost": 553.928,
+                "begin_shape_index": 97,
+                "end_shape_index": 241,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 24,
+                "instruction": "Keep left to take E 22.",
+                "verbal_transition_alert_instruction": "Keep left to take E 22.",
+                "verbal_pre_transition_instruction": "Keep left to take E 22.",
+                "verbal_post_transition_instruction": "Continue for 9 kilometers.",
+                "street_names": [
+                  "E 22"
+                ],
+                "begin_street_names": [
+                  "E 22",
+                  "E 105",
+                  "МКАД, 67-й километр"
+                ],
+                "time": 340.513,
+                "length": 9.448,
+                "cost": 397.199,
+                "begin_shape_index": 241,
+                "end_shape_index": 368,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 18,
+                "instruction": "Take the М-11 ramp on the right toward  Химки.",
+                "verbal_transition_alert_instruction": "Take the М-11 ramp on the right.",
+                "verbal_pre_transition_instruction": "Take the М-11 ramp on the right toward  Химки.",
+                "street_names": [
+                  "М-11"
+                ],
+                "time": 29.581,
+                "length": 0.591,
+                "cost": 33.982,
+                "begin_shape_index": 368,
+                "end_shape_index": 376,
+                "sign": {
+                  "exit_branch_elements": [
+                    {
+                      "text": "М-11"
+                    }
+                  ],
+                  "exit_toward_elements": [
+                    {
+                      "text": " Химки",
+                      "consecutive_count": 1
+                    },
+                    {
+                      "text": "Санкт-Петербург"
+                    },
+                    {
+                      "text": " Москва-Центр"
+                    }
+                  ]
+                },
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 24,
+                "instruction": "Keep left to take М-11/«Нева» toward  Химки.",
+                "verbal_transition_alert_instruction": "Keep left to take М-11.",
+                "verbal_pre_transition_instruction": "Keep left to take М-11, «Нева» toward  Химки.",
+                "verbal_post_transition_instruction": "Continue for 1.5 kilometers.",
+                "street_names": [
+                  "М-11",
+                  "«Нева»"
+                ],
+                "time": 76.447,
+                "length": 1.452,
+                "cost": 96.664,
+                "begin_shape_index": 376,
+                "end_shape_index": 409,
+                "highway": true,
+                "sign": {
+                  "exit_toward_elements": [
+                    {
+                      "text": " Химки",
+                      "consecutive_count": 1
+                    },
+                    {
+                      "text": "С.-Петербург"
+                    },
+                    {
+                      "text": " Шереметьево"
+                    }
+                  ]
+                },
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 20,
+                "instruction": "Take the exit on the right toward Лихачёвское шоссе/Долгопрудный.",
+                "verbal_transition_alert_instruction": "Take the exit on the right toward Лихачёвское шоссе.",
+                "verbal_pre_transition_instruction": "Take the exit on the right toward Лихачёвское шоссе, Долгопрудный.",
+                "verbal_post_transition_instruction": "Continue for 900 meters.",
+                "street_names": [
+                  "46К-9629"
+                ],
+                "time": 60.117,
+                "length": 0.897,
+                "cost": 84.722,
+                "begin_shape_index": 409,
+                "end_shape_index": 448,
+                "sign": {
+                  "exit_toward_elements": [
+                    {
+                      "text": "Лихачёвское шоссе"
+                    },
+                    {
+                      "text": "Долгопрудный"
+                    }
+                  ]
+                },
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 10,
+                "instruction": "Turn right.",
+                "verbal_transition_alert_instruction": "Turn right.",
+                "verbal_succinct_transition_instruction": "Turn right.",
+                "verbal_pre_transition_instruction": "Turn right.",
+                "verbal_post_transition_instruction": "Continue for 200 meters.",
+                "time": 42.543,
+                "length": 0.208,
+                "cost": 141.448,
+                "begin_shape_index": 448,
+                "end_shape_index": 461,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 24,
+                "instruction": "Keep left at the fork.",
+                "verbal_transition_alert_instruction": "Keep left at the fork.",
+                "verbal_pre_transition_instruction": "Keep left at the fork.",
+                "verbal_post_transition_instruction": "Continue for 400 meters.",
+                "time": 110.634,
+                "length": 0.447,
+                "cost": 1176.249,
+                "begin_shape_index": 461,
+                "end_shape_index": 477,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              },
+              {
+                "type": 5,
+                "instruction": "Your destination is on the right.",
+                "verbal_transition_alert_instruction": "Your destination will be on the right.",
+                "verbal_pre_transition_instruction": "Your destination is on the right.",
+                "time": 0.0,
+                "length": 0.0,
+                "cost": 0.0,
+                "begin_shape_index": 477,
+                "end_shape_index": 477,
+                "travel_mode": "drive",
+                "travel_type": "car"
+              }
+            ],
+            "summary": {
+              "has_time_restrictions": false,
+              "has_toll": false,
+              "has_highway": true,
+              "has_ferry": false,
+              "min_lat": 55.789117,
+              "min_lon": 37.390765,
+              "max_lat": 55.902069,
+              "max_lon": 37.498223,
+              "time": 1349.233,
+              "length": 21.693,
+              "cost": 3098.916
+            },
+            "shape": "e{cliBsikmfApJcDhGlJtNeDlBo@h@l[h@r]lAbs@RpLt@t[jBxz@TtMj@p\\d@|Xn@fb@LnHNfNHdHP|JmFOe_@yAcjAwEun@gCaEO{a@KeDA_OQkHIeFA}LAsIEgYYkDEkHKkMIwIIkANcOfCsHhBeDbAaCt@sGbDqG~DkKhIuC|BgSlU_KvMcApAwCvDmIpKib@fj@whAdwA}HxIyDdDkEnCsIvD_IdBqGh@qEBijAd@sB@ql@IeJAiIQcj@eAa|@cBA_J@eBTe~@F}[NopA?aFCyo@EwAWmFgDk_@kKicAeI}v@aI_v@qBgKoDuFcg@on@uCwDeDgEs[g`@eEoFoMwPuCwDaCjGuS|o@}HpVaDnKuDbM_N`a@sChI_BjEc@nAeBlElGfOvGpS~DfOpFvWtErZ~ArNpAjNzApQ`AhQhA~YpC|t@VrHj@vQrBlp@hDhrA~BjqA~@tk@|CzoBfGtkE|EdqE~@rdA`Cx{BvAzsAbAli@bChh@lBnVpAzPvd@`qFdE|e@XhDjFzn@`CpZpA`Sh@~MJxNHhMUvp@E`IU`g@GbJ[hXs@vVy@pQiA|QqCtd@oEnt@o@dKgDxi@qC|c@cF~w@WxDaAfO}@vNiFpx@gH`iAoIpsAwArRmCf^sErl@sFxs@iBbVqFxu@oA`LqBzNcJfe@cBlHkDpMaD|LsPlj@iBzEgCzGkHhQmHvNkAxBkFtJwMhTaPlXeBrCsHtL{AbC_H~K}AhCmLlRi`B|kCsMbTuGpKo@dAaA|AaBnCeIfNoO~VsDdGw`@jp@}AhCeEpH_J|O}DjJsC`HqDfLcCtKwEdWcChQu@fFgCzR_Gfe@wEn_@mBtOYvB}@lIk@bF{BxR{@jKUfB[bCeAzHaKtu@w@`Go@pEq@dFqBlOq[zaCwHvj@a@bD_Hrh@mAdJwBzNy@lFeArFwBdGi@zAeEjHmIhKkJ~I{GfG}OlIo`@b]{E`B{F^aYyBcr@cOyaCih@i[}G}dFsgAsq@sNkFgAkXyFm]uFasAoQq[sEcb@aIa]gHel@_M{oByb@gzAc`@s[wHqHyAyRyDaL{Be`@wG}j@_JyWkDu]eCwc@wAsj@_@ap@jBiv@vGuUdDqV`FcVpF}WnHml@xRw]zOkJfEyYxOoLlI}WhQwg@j\\{j@h_@{WnQwWrQm[jNqWlJwWzHcVhFgP~ByV|BwRf@e_@^kVi@s\\yCkZuFk^mJoTmHiZyLeVqKweDswA_bBys@k`CodAwtAam@mwAkq@kx@gb@g[iR_EqCgSkNyu@_l@av@co@m{@sx@wa@yb@yJ_LsLaNwVuYgFeGuh@ir@uh@yt@_h@eu@kZcf@uu@qtAaj@qeAkj@_mA_]_y@i\\iz@iUwn@kb@enAsb@stAi_@wqAoZyiAsZomAeYqmAer@kcDyiAykF_Rg|@c]y_Bgd@ixBeCuLcp@g~CsAiGiCkLaOqp@oa@enByRs}@a@mBmLmk@sIs`@o\\s|AgU{iAmOcz@uNe`AqJus@mIyr@mIiz@gHgu@eIm`AyE{s@_Eov@kGo_BoBqq@gAue@gAq|@Wk`@_@wi@GeZ_BuuFoAm{AgBckAyCieAkEsaAwFm|@gAgNwAgQaDia@cIgw@eNyiBaK_bAqAmM}Kq}@{Kyz@{OeeAcNyx@i\\aoBwJyk@gFad@}Ce^gDwq@uEskAcEuc@aF{_@mFyXyHcY_IgUsNq[{LkTyJ{LaQsN_S}KoPaFyQgC{V_A{YuBaRoCaDu@_K}B}SuIsQ{F_\\wJoPaIqZyKqU{Fa\\gGkVwD}_@wGg{AkTwi@{Hkz@aUgLoDiIwDcFkDuG}GoEyG{EqIqDyIuE}NuPcn@wJy\\eJiWMi@uIg]{DaOgEaMsEwKcFoIwDgEiEaDiE_CmG_BeGk@sFNmFdAqEzA_HbE{ItH_KdJuWvSwEtC{FjAyEVgH]iF_A{G}B_LkGgd@{YgGkE|@kH`AsIhEwMlFaItE_ElD{@xC?lJ^xCo@dB{BfQ}p@tBaG~DaI`Jo`@pe@opAvXqh@lQcZnFmL`AkJQcP]kJt@mMpBaK`M}\\bAiKo@aKeEaHiEmBsIyD"
+          }
+        ],
+        "summary": {
+          "has_time_restrictions": false,
+          "has_toll": false,
+          "has_highway": true,
+          "has_ferry": false,
+          "min_lat": 55.789117,
+          "min_lon": 37.390765,
+          "max_lat": 55.902069,
+          "max_lon": 37.498223,
+          "time": 1349.233,
+          "length": 21.693,
+          "cost": 3098.916
+        },
+        "status_message": "Found route between points",
+        "status": 0,
+        "units": "kilometers",
+        "language": "en-US"
+      }
+    }
+  }
+]

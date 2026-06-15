@@ -1,0 +1,12 @@
+{
+  "vehicle_id": "Е691ЕК550",
+  "trip_id": 1,
+  "method": "initial_original_order",
+  "segments_count": 40,
+  "nodes_count": 41,
+  "total_distance_km": 104.893,
+  "total_time_sec": 9565,
+  "total_time_min": 159.4,
+  "source_summary_distance_km": 104.893,
+  "source_summary_time_min": 159.4
+}

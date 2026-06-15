@@ -1,0 +1,3154 @@
+[
+  {
+    "vehicle_id": "Е691ЕК550",
+    "trip_id": 1,
+    "start": {
+      "point_type": "START",
+      "address": "ул. Вагоноремонтная",
+      "lat": 55.902619,
+      "lon": 37.529597,
+      "point_id": null,
+      "stop_seq": null,
+      "district": null,
+      "time_window": null
+    },
+    "stops": [
+      {
+        "point_type": "STOP",
+        "address": "МКАД, 73-й километр, вл10",
+        "lat": 55.88,
+        "lon": 37.43,
+        "point_id": "10474973",
+        "stop_seq": 1,
+        "district": "Северное Тушино",
+        "time_window": "00:00 - 23:59"
+      },
+      {
+        "point_type": "STOP",
+        "address": "г. Москва, Волоколамское шоссе, д. 77, корп. 2",
+        "lat": 55.82,
+        "lon": 37.42,
+        "point_id": "10118940",
+        "stop_seq": 2,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское ш., 71/8с3",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10120155",
+        "stop_seq": 3,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 19:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Москва,Водников, 16к1 (откатной бункер)",
+        "lat": 55.81,
+        "lon": 37.45,
+        "point_id": "10471827",
+        "stop_seq": 4,
+        "district": "Покровское-Стрешнево",
+        "time_window": "06:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское шоссе, 69Б/1 (АО \"ГК \"ЕКС\") +7 (985) 684-41-13",
+        "lat": 55.81,
+        "lon": 37.44,
+        "point_id": "10119823",
+        "stop_seq": 5,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское ш., д. 71, корп. 1 (КП1) 89165300898",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10119547",
+        "stop_seq": 6,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское ш., д. 71, корп. 1 (КП2)",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10120584",
+        "stop_seq": 7,
+        "district": "Покровское-Стрешнево",
+        "time_window": "12:30 - 14:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское ш., д. 71, корп. 1 (КП3)",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10118057",
+        "stop_seq": 8,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское ш., д. 71/7 (КОД: 0000, Ресторан)",
+        "lat": 55.82,
+        "lon": 37.42,
+        "point_id": "10118692",
+        "stop_seq": 9,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское шоссе, к22 вл71/12 (ПЕРЕД ЗАБОРОМ ЁМКОСТИ ОБЯЗАТЕЛЬНО ЗВОНИТЬ! 8-964-799-89-04)",
+        "lat": 55.81,
+        "lon": 37.42,
+        "point_id": "10117939",
+        "stop_seq": 10,
+        "district": "Покровское-Стрешнево",
+        "time_window": "06:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Лётная улица, 95Бк2 (КП2) (ЗВОНИТЬ ЗА ЧАС8-925-923-72-91, 8 968 861-25-17, 89687255936)",
+        "lat": 55.82,
+        "lon": 37.42,
+        "point_id": "10118467",
+        "stop_seq": 11,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Небесный бульвар, д.1,корп.1 (ПРАЙМ МЕГАПОЛИС)",
+        "lat": 55.82,
+        "lon": 37.42,
+        "point_id": "10118679",
+        "stop_seq": 12,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Небесный бульвар, д.1,корп.1 (ЗВОНИТЬ ЗА 20 МИНУТ 7 929 686-85-25 , БАК ПОДПИСАН, ОТБИВКА ТОЛЬКО ИХ БАК !!! Выкатные на Лётная 95Бк2) СЫРОВАРНЯ СПАРТАК НОМЕР 8-929-686-85-25",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10118696",
+        "stop_seq": 13,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Лётная улица, 95Бк2 (КП2) (ЗВОНИТЬ ЗА ЧАС8-925-923-72-91, 8 968 861-25-17, 89687255936)",
+        "lat": 55.82,
+        "lon": 37.42,
+        "point_id": "10119115",
+        "stop_seq": 14,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское шоссе, д. 71/7",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10119682",
+        "stop_seq": 15,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Небесный бульвар, д.1,корп.1 (ПРАЙМ МЕГАПОЛИС)",
+        "lat": 55.82,
+        "lon": 37.42,
+        "point_id": "10119827",
+        "stop_seq": 16,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Лётная улица, 95Бк2 (КП1) ( ЗВОНИТЬ ЗА ЧАС 8-925-923-72-91, 8 968 861-25-17, 89687255936)",
+        "lat": 55.82,
+        "lon": 37.42,
+        "point_id": "10119915",
+        "stop_seq": 17,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Лётная улица, 95Бк2 (КП1) ( ЗВОНИТЬ ЗА ЧАС 8-925-923-72-91, 8 968 861-25-17, 89687255936)",
+        "lat": 55.82,
+        "lon": 37.42,
+        "point_id": "10119955",
+        "stop_seq": 18,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Небесный бульвар, д.1,корп.1 (ЗВОНИТЬ ЗА 20 МИНУТ 7 929 686-85-25 , БАК ПОДПИСАН, ОТБИВКА ТОЛЬКО ИХ БАК !!! Выкатные на Лётная 95Бк2) СЫРОВАРНЯ СПАРТАК НОМЕР 8-929-686-85-25",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10120049",
+        "stop_seq": 19,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Лётная улица, 95Б (Кофемания) Бак на КП (КОДЫ ОТ ЗАМКОВ 1123 оба замка)",
+        "lat": 55.82,
+        "lon": 37.42,
+        "point_id": "10474205",
+        "stop_seq": 20,
+        "district": "Покровское-Стрешнево",
+        "time_window": "00:00 - 23:59"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Чкаловский бульвар, д. 6 (КП 1)",
+        "lat": 55.82,
+        "lon": 37.42,
+        "point_id": "10120462",
+        "stop_seq": 21,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Чкаловский бульвар, д. 6 (КП 2)",
+        "lat": 55.82,
+        "lon": 37.42,
+        "point_id": "10120463",
+        "stop_seq": 22,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Чкаловский б-р, д 6 к 1",
+        "lat": 55.81,
+        "lon": 37.42,
+        "point_id": "10119934",
+        "stop_seq": 23,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Чкаловский бульвар., д. 9, корп. 2",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10120464",
+        "stop_seq": 24,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Чкаловский бульвар., д. 9, корп. 2",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10120603",
+        "stop_seq": 25,
+        "district": "Покровское-Стрешнево",
+        "time_window": "12:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Николая Озерова ул., д.8, к. 1 (КП 2) (СТРОГО с 7:00 до 23:00, ШТРАФ)",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10119397",
+        "stop_seq": 26,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Николая Озерова ул., д.8, к. 1 (КП 1) (СТРОГО с 7:00 до 23:00, ШТРАФ)",
+        "lat": 55.81,
+        "lon": 37.43,
+        "point_id": "10118662",
+        "stop_seq": 27,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское ш., д. 71/13 (КП2) бункер откатной \"СТРОГО с 7:00, ШТРАФ\"",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10118974",
+        "stop_seq": 28,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское ш., д. 71/13 (КП1) \"СТРОГО с 7:00 до 23:00, ШТРАФ\"",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10119029",
+        "stop_seq": 29,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское ш., д. 71/13 (КП2) бункер откатной \"СТРОГО с 7:00, ШТРАФ\"",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10120618",
+        "stop_seq": 30,
+        "district": "Покровское-Стрешнево",
+        "time_window": "12:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское ш., д. 71/13 (КП1) \"СТРОГО с 7:00 до 23:00, ШТРАФ\"",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10163406",
+        "stop_seq": 31,
+        "district": "Покровское-Стрешнево",
+        "time_window": "12:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское ш., д.71, корп. 4(ВЫВОЗ СТРОГО до 12-00)",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10119552",
+        "stop_seq": 32,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское шоссе, 71/8к1",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10117621",
+        "stop_seq": 33,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское ш., д. 71 корп. 8",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10120619",
+        "stop_seq": 34,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское ш., д. 71 корп. 8",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10118230",
+        "stop_seq": 35,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское шоссе, д.71, стр.8 А (ГБОУ ШКОЛА № 727 )",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10471786",
+        "stop_seq": 36,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 19:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское ш., д. 71, корп. 5",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10120082",
+        "stop_seq": 37,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское шоссе, 71/22к3",
+        "lat": 55.82,
+        "lon": 37.44,
+        "point_id": "10474976",
+        "stop_seq": 38,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское шоссе, 71/22к1",
+        "lat": 55.82,
+        "lon": 37.44,
+        "point_id": "10118722",
+        "stop_seq": 39,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      }
+    ],
+    "end": {
+      "point_type": "END",
+      "address": "Химки, Московская область",
+      "lat": 55.899135,
+      "lon": 37.498469,
+      "point_id": null,
+      "stop_seq": null,
+      "district": null,
+      "time_window": null
+    }
+  },
+  {
+    "vehicle_id": "Е691ЕК550",
+    "trip_id": 2,
+    "start": {
+      "point_type": "START",
+      "address": "ул. Вагоноремонтная",
+      "lat": 55.902619,
+      "lon": 37.529597,
+      "point_id": null,
+      "stop_seq": null,
+      "district": null,
+      "time_window": null
+    },
+    "stops": [
+      {
+        "point_type": "STOP",
+        "address": "Планерная ул., д. 3, корп. 1",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10119375",
+        "stop_seq": 1,
+        "district": "Северное Тушино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Планерная ул., д. 3, корп. 2",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10118453",
+        "stop_seq": 2,
+        "district": "Северное Тушино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Планерная ул., д. 3, корп. 4",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10117966",
+        "stop_seq": 3,
+        "district": "Северное Тушино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Планерная ул., д. 5, корп. 3",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10118186",
+        "stop_seq": 4,
+        "district": "Северное Тушино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 18, стр.1",
+        "lat": 55.86,
+        "lon": 37.42,
+        "point_id": "10118206",
+        "stop_seq": 5,
+        "district": "Северное Тушино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 16, корп. 3",
+        "lat": 55.86,
+        "lon": 37.42,
+        "point_id": "10118287",
+        "stop_seq": 6,
+        "district": "Северное Тушино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 14, корп. 1",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10119132",
+        "stop_seq": 7,
+        "district": "Северное Тушино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Планерная ул., д. 1, корп. 1",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10119209",
+        "stop_seq": 8,
+        "district": "Северное Тушино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 12, корп. 1",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10119820",
+        "stop_seq": 9,
+        "district": "Северное Тушино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 16, корп. 1",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10119980",
+        "stop_seq": 10,
+        "district": "Северное Тушино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Планерная ул., д. 1, корп. 3",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10120214",
+        "stop_seq": 11,
+        "district": "Северное Тушино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 12, корп. 1",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10471802",
+        "stop_seq": 12,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Планерная ул., д. 1, корп. 1",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10471845",
+        "stop_seq": 13,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское ш., д. 71, корп. 1 (КП1) 89165300898",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10484409",
+        "stop_seq": 14,
+        "district": "Покровское-Стрешнево",
+        "time_window": "12:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское ш., д. 75",
+        "lat": 55.83,
+        "lon": 37.43,
+        "point_id": "10117627",
+        "stop_seq": 15,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское шоссе, 75А (+7 916 790-46-33)",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10120389",
+        "stop_seq": 16,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское ш.71/22, к 1 (ДИКСИ)",
+        "lat": 55.82,
+        "lon": 37.44,
+        "point_id": "10118515",
+        "stop_seq": 17,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 21:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Николая Озерова ул., д. 2, корп. 1 (КП 3)",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10119134",
+        "stop_seq": 18,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Николая Озерова ул., д. 2, корп. 1 (КП 3)",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10471834",
+        "stop_seq": 19,
+        "district": "Покровское-Стрешнево",
+        "time_window": "12:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Николая Озерова ул., д. 2, корп. 1 (КП 1)",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10118400",
+        "stop_seq": 20,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Николая Озерова ул., д. 2, корп. 1 (КП 1)",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10471833",
+        "stop_seq": 21,
+        "district": "Покровское-Стрешнево",
+        "time_window": "12:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Николая Озерова ул., д. 2, корп. 1 (КП 2)",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10482011",
+        "stop_seq": 22,
+        "district": "Покровское-Стрешнево",
+        "time_window": "12:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Николая Озерова ул., д. 2, корп. 1 (КП 2)",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10119198",
+        "stop_seq": 23,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское ш., д. 71, корп. 1",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10119768",
+        "stop_seq": 24,
+        "district": "Покровское-Стрешнево",
+        "time_window": "08:30 - 21:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Волоколамское ш., д. 71, корп. 2.",
+        "lat": 55.82,
+        "lon": 37.43,
+        "point_id": "10119510",
+        "stop_seq": 25,
+        "district": "Покровское-Стрешнево",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 19",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10119798",
+        "stop_seq": 26,
+        "district": "Северное Тушино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., 20к1",
+        "lat": 55.86,
+        "lon": 37.42,
+        "point_id": "10118717",
+        "stop_seq": 27,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 21:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., д. 20, корп. 2",
+        "lat": 55.86,
+        "lon": 37.42,
+        "point_id": "10119043",
+        "stop_seq": 28,
+        "district": "Северное Тушино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., д. 18",
+        "lat": 55.86,
+        "lon": 37.42,
+        "point_id": "10117762",
+        "stop_seq": 29,
+        "district": "Северное Тушино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., д. 14",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10119983",
+        "stop_seq": 30,
+        "district": "Северное Тушино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., д. 12, корп. 1",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10118307",
+        "stop_seq": 31,
+        "district": "Северное Тушино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., д. 12, корп. 1",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10472441",
+        "stop_seq": 32,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., д. 14, корп. 4",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10118647",
+        "stop_seq": 33,
+        "district": "Северное Тушино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская улица, 18к1",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10119396",
+        "stop_seq": 34,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., д. 25, корп. 1",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10117620",
+        "stop_seq": 35,
+        "district": "Северное Тушино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., д. 19, корп. 2",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10118627",
+        "stop_seq": 36,
+        "district": "Северное Тушино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., д. 19, корп. 3",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10118698",
+        "stop_seq": 37,
+        "district": "Северное Тушино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., д. 29, корп. 2",
+        "lat": 55.86,
+        "lon": 37.42,
+        "point_id": "10119383",
+        "stop_seq": 38,
+        "district": "Северное Тушино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., д. 25, корп. 4",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10119444",
+        "stop_seq": 39,
+        "district": "Северное Тушино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., д. 25, корп. 5",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10120186",
+        "stop_seq": 40,
+        "district": "Северное Тушино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., 19к6",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10471868",
+        "stop_seq": 41,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 19:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., 27к1",
+        "lat": 55.86,
+        "lon": 37.42,
+        "point_id": "10471869",
+        "stop_seq": 42,
+        "district": "Северное Тушино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., д. 19, корп. 4",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10474978",
+        "stop_seq": 43,
+        "district": "Северное Тушино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., д. 19, корп. 2",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10481726",
+        "stop_seq": 44,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., д. 19, корп. 3",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10481776",
+        "stop_seq": 45,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., д. 21",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10119644",
+        "stop_seq": 46,
+        "district": "Северное Тушино",
+        "time_window": "10:00 - 12:00"
+      }
+    ],
+    "end": {
+      "point_type": "END",
+      "address": "Химки, Московская область",
+      "lat": 55.899135,
+      "lon": 37.498469,
+      "point_id": null,
+      "stop_seq": null,
+      "district": null,
+      "time_window": null
+    }
+  },
+  {
+    "vehicle_id": "Е691ЕК550",
+    "trip_id": 3,
+    "start": {
+      "point_type": "START",
+      "address": "ул. Вагоноремонтная",
+      "lat": 55.902619,
+      "lon": 37.529597,
+      "point_id": null,
+      "stop_seq": null,
+      "district": null,
+      "time_window": null
+    },
+    "stops": [
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., д. 15",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10118416",
+        "stop_seq": 1,
+        "district": "Северное Тушино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., д. 17",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10119348",
+        "stop_seq": 2,
+        "district": "Северное Тушино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., д. 13, корп. 1",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10119580",
+        "stop_seq": 3,
+        "district": "Северное Тушино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Яна Райниса б-р, 18к1",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10118915",
+        "stop_seq": 4,
+        "district": "Северное Тушино",
+        "time_window": "09:00 - 21:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Яна Райниса бульв., д. 16, корп. 1",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10117846",
+        "stop_seq": 5,
+        "district": "Северное Тушино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Яна Райниса ул., 18к3",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10474980",
+        "stop_seq": 6,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 19:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Яна Райниса бульв., д. 22, к.1",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10119614",
+        "stop_seq": 7,
+        "district": "Северное Тушино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Яна Райниса б-р, 26к1",
+        "lat": 55.85,
+        "lon": 37.41,
+        "point_id": "10118253",
+        "stop_seq": 8,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Яна Райниса бульв., д. 26, корп. 1",
+        "lat": 55.85,
+        "lon": 37.41,
+        "point_id": "10120270",
+        "stop_seq": 9,
+        "district": "Северное Тушино",
+        "time_window": "11:00 - 13:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Вилиса Лациса ул., 23к3",
+        "lat": 55.86,
+        "lon": 37.42,
+        "point_id": "10474771",
+        "stop_seq": 10,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 19:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Яна Райниса бульв., д. 30, корп. 1",
+        "lat": 55.85,
+        "lon": 37.41,
+        "point_id": "10118501",
+        "stop_seq": 11,
+        "district": "Северное Тушино",
+        "time_window": "11:00 - 13:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 49 к. 2",
+        "lat": 55.85,
+        "lon": 37.41,
+        "point_id": "10117639",
+        "stop_seq": 12,
+        "district": "Северное Тушино",
+        "time_window": "11:00 - 13:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Яна Райниса бульв., д. 26, корп. 2",
+        "lat": 55.85,
+        "lon": 37.41,
+        "point_id": "10118705",
+        "stop_seq": 13,
+        "district": "Северное Тушино",
+        "time_window": "11:00 - 13:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Туристская ул., 13к2",
+        "lat": 55.85,
+        "lon": 37.42,
+        "point_id": "10118147",
+        "stop_seq": 14,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 1, корп. 5",
+        "lat": 55.85,
+        "lon": 37.44,
+        "point_id": "10118161",
+        "stop_seq": 15,
+        "district": "Северное Тушино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 7, корп. 5",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10118566",
+        "stop_seq": 16,
+        "district": "Северное Тушино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "ул Героев Панфиловцев, д.1 (ЗАО \"ТиК Продукты\")",
+        "lat": 55.85,
+        "lon": 37.44,
+        "point_id": "10118578",
+        "stop_seq": 17,
+        "district": "Северное Тушино",
+        "time_window": "08:00 - 22:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 1, корп. 1",
+        "lat": 55.85,
+        "lon": 37.44,
+        "point_id": "10118799",
+        "stop_seq": 18,
+        "district": "Северное Тушино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Яна Райниса бульв., д.6, корп. 3 (КП2) (у детской площадки)",
+        "lat": 55.85,
+        "lon": 37.43,
+        "point_id": "10118868",
+        "stop_seq": 19,
+        "district": "Северное Тушино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 7 (Перекресток)",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10119088",
+        "stop_seq": 20,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 11, корп. 1",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10119096",
+        "stop_seq": 21,
+        "district": "Северное Тушино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 9, корп. 3 (КП2)",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10119252",
+        "stop_seq": 22,
+        "district": "Северное Тушино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Яна Райниса бул., д. 4, корп. 3",
+        "lat": 55.85,
+        "lon": 37.43,
+        "point_id": "10119257",
+        "stop_seq": 23,
+        "district": "Северное Тушино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 15, корп. 3",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10118562",
+        "stop_seq": 24,
+        "district": "Северное Тушино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 9, корп. 3",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10119322",
+        "stop_seq": 25,
+        "district": "Северное Тушино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Яна Райниса бульв., д.6, корп. 3 (КП1) (КП с бункером)",
+        "lat": 55.85,
+        "lon": 37.43,
+        "point_id": "10119475",
+        "stop_seq": 26,
+        "district": "Северное Тушино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 5",
+        "lat": 55.85,
+        "lon": 37.44,
+        "point_id": "10119524",
+        "stop_seq": 27,
+        "district": "Северное Тушино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Яна Райниса б-р, 4к2",
+        "lat": 55.85,
+        "lon": 37.43,
+        "point_id": "10119836",
+        "stop_seq": 28,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 19:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 7 (Макдональдс)",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10120054",
+        "stop_seq": 29,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 9, корп. 4",
+        "lat": 55.85,
+        "lon": 37.43,
+        "point_id": "10120242",
+        "stop_seq": 30,
+        "district": "Северное Тушино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 7, корп. 1",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10120331",
+        "stop_seq": 31,
+        "district": "Северное Тушино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 11, корп. 2",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10120338",
+        "stop_seq": 32,
+        "district": "Северное Тушино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., 13к2",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10471800",
+        "stop_seq": 33,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 19:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 1, корп. 5",
+        "lat": 55.85,
+        "lon": 37.44,
+        "point_id": "10471803",
+        "stop_seq": 34,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Яна Райниса бульв., д.6, корп. 3 (КП1) (КП с бункером)",
+        "lat": 55.85,
+        "lon": 37.43,
+        "point_id": "10472323",
+        "stop_seq": 35,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 1, корп. 1",
+        "lat": 55.85,
+        "lon": 37.44,
+        "point_id": "10472398",
+        "stop_seq": 36,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 7, корп. 1",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10481782",
+        "stop_seq": 37,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 9, корп. 4",
+        "lat": 55.85,
+        "lon": 37.43,
+        "point_id": "10481814",
+        "stop_seq": 38,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 5",
+        "lat": 55.85,
+        "lon": 37.44,
+        "point_id": "10481850",
+        "stop_seq": 39,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Героев Панфиловцев ул., д. 15, корп. 3",
+        "lat": 55.86,
+        "lon": 37.43,
+        "point_id": "10472425",
+        "stop_seq": 40,
+        "district": "Северное Тушино",
+        "time_window": "07:00 - 23:00"
+      }
+    ],
+    "end": {
+      "point_type": "END",
+      "address": "Химки, Московская область",
+      "lat": 55.899135,
+      "lon": 37.498469,
+      "point_id": null,
+      "stop_seq": null,
+      "district": null,
+      "time_window": null
+    }
+  },
+  {
+    "vehicle_id": "Е864ВР550",
+    "trip_id": 1,
+    "start": {
+      "point_type": "START",
+      "address": "ул. Вагоноремонтная",
+      "lat": 55.902619,
+      "lon": 37.529597,
+      "point_id": null,
+      "stop_seq": null,
+      "district": null,
+      "time_window": null
+    },
+    "stops": [
+      {
+        "point_type": "STOP",
+        "address": "Маршала Жукова пр-т, 46 (ГБУ МКД)",
+        "lat": 55.78,
+        "lon": 37.47,
+        "point_id": "10119520",
+        "stop_seq": 1,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Маршала Жукова пр-т, 46 (ГБУ МКД)",
+        "lat": 55.78,
+        "lon": 37.47,
+        "point_id": "10118046",
+        "stop_seq": 2,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Маршала Жукова пр-т., д. 48 корп. 1",
+        "lat": 55.78,
+        "lon": 37.47,
+        "point_id": "10119321",
+        "stop_seq": 3,
+        "district": "Хорошево-Мневники",
+        "time_window": "05:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Маршала Жукова д 64 корп. 1",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10120496",
+        "stop_seq": 4,
+        "district": "Хорошево-Мневники",
+        "time_window": "05:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Маршала Жукова д 64 корп. 1",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10120599",
+        "stop_seq": 5,
+        "district": "Хорошево-Мневники",
+        "time_window": "12:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Маршала Жукова пр-т, 68 к 2 (ГБУ МКД)",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10118487",
+        "stop_seq": 6,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Маршала Жукова пр-т, 70 к 1 (ГБУ МКД)",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10119424",
+        "stop_seq": 7,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "83-й квартал (Живописная д.4 к.4) АО \"ГК \"ЕКС\"",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10471772",
+        "stop_seq": 8,
+        "district": "Хорошево-Мневники",
+        "time_window": "12:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Живописная ул, 4 к 2 (ГБУ МКД)",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10118622",
+        "stop_seq": 9,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Живописная ул., 6к1",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10119064",
+        "stop_seq": 10,
+        "district": "Хорошево-Мневники",
+        "time_window": "05:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Живописная ул, 6 к 1 (ГБУ МКД)",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10117725",
+        "stop_seq": 11,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Маршала Тухачевского ул., д. 55",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10119221",
+        "stop_seq": 12,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Маршала Тухачевского ул., д. 55",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10119221",
+        "stop_seq": 12,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Маршала Тухачевского ул, 51 (КП №2) (ГБУ МКД)",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10119525",
+        "stop_seq": 13,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Маршала Тухачевского ул, 51 (КП №1) (ГБУ МКД)",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10119776",
+        "stop_seq": 14,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Генерала Глаголева ул, 19 (ГБУ МКД)",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10118065",
+        "stop_seq": 15,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Генерала Глаголева ул, 2 (ГБУ МКД)",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10119069",
+        "stop_seq": 16,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Генерала Глаголева ул, 5 к 1 (ГБУ МКД)",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10119749",
+        "stop_seq": 17,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Генерала Глаголева ул, 16 к 2 (ГБУ МКД)",
+        "lat": 55.78,
+        "lon": 37.47,
+        "point_id": "10118192",
+        "stop_seq": 18,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Генерала Глаголева ул., д.14 А к.1 (ЗВОНИТЬ +7 950 727-13-77)",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10118452",
+        "stop_seq": 19,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Генерала Глаголева ул, 11 к 1 (ГБУ МКД)",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10474660",
+        "stop_seq": 20,
+        "district": "Хорошево-Мневники",
+        "time_window": "12:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Генерала Глаголева ул, 13 к 2 (ГБУ МКД)",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10117771",
+        "stop_seq": 21,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Глаголева Генерала ул., д. 14 (КП2)",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10118158",
+        "stop_seq": 22,
+        "district": "Хорошево-Мневники",
+        "time_window": "05:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Генерала Глаголева ул, 15 к 1 (ГБУ МКД)",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10119392",
+        "stop_seq": 23,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Живописная ул., 8 к.1",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10475314",
+        "stop_seq": 24,
+        "district": "Хорошево-Мневники",
+        "time_window": "05:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Маршала Тухачевского ул., 55",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10118244",
+        "stop_seq": 25,
+        "district": "Хорошево-Мневники",
+        "time_window": "05:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Маршала Тухачевского ул, 56 к 3 (ГБУ МКД)",
+        "lat": 55.79,
+        "lon": 37.46,
+        "point_id": "10120336",
+        "stop_seq": 26,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Маршала Тухачевского ул., 58 корп. 2",
+        "lat": 55.79,
+        "lon": 37.46,
+        "point_id": "10474155",
+        "stop_seq": 27,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 19:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Маршала Тухачевского ул, 58 (ГБУ МКД)",
+        "lat": 55.79,
+        "lon": 37.46,
+        "point_id": "10120132",
+        "stop_seq": 28,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "ШАПКИ НЕ БРАТЬ! Живописная ул., 12к1 (АО \"ДИКСИ\")",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10120501",
+        "stop_seq": 29,
+        "district": "Хорошево-Мневники",
+        "time_window": "09:00 - 21:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "ШАПКИ не брать!! Живописная ул., 12к1",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10120376",
+        "stop_seq": 30,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Живописная ул, 22 (ГБУ МКД)",
+        "lat": 55.79,
+        "lon": 37.45,
+        "point_id": "10118828",
+        "stop_seq": 31,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Паршина ул., д. 10 (КП3)",
+        "lat": 55.79,
+        "lon": 37.46,
+        "point_id": "10117545",
+        "stop_seq": 32,
+        "district": "Хорошево-Мневники",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Паршина ул., д. 10 (КП4)",
+        "lat": 55.79,
+        "lon": 37.46,
+        "point_id": "10118095",
+        "stop_seq": 33,
+        "district": "Хорошево-Мневники",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Паршина ул., д. 10 (КП2)",
+        "lat": 55.79,
+        "lon": 37.46,
+        "point_id": "10119764",
+        "stop_seq": 34,
+        "district": "Хорошево-Мневники",
+        "time_window": "10:00 - 12:00"
+      }
+    ],
+    "end": {
+      "point_type": "END",
+      "address": "Химки, Московская область",
+      "lat": 55.899135,
+      "lon": 37.498469,
+      "point_id": null,
+      "stop_seq": null,
+      "district": null,
+      "time_window": null
+    }
+  },
+  {
+    "vehicle_id": "Е864ВР550",
+    "trip_id": 2,
+    "start": {
+      "point_type": "START",
+      "address": "ул. Вагоноремонтная",
+      "lat": 55.902619,
+      "lon": 37.529597,
+      "point_id": null,
+      "stop_seq": null,
+      "district": null,
+      "time_window": null
+    },
+    "stops": [
+      {
+        "point_type": "STOP",
+        "address": "Генерала Карбышева б-р, 19 к 1 (ГБУ МКД)",
+        "lat": 55.78,
+        "lon": 37.47,
+        "point_id": "10120243",
+        "stop_seq": 1,
+        "district": "Хорошево-Мневники",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Генерала Карбышева б-р, 19 к 2 (ГБУ МКД)",
+        "lat": 55.78,
+        "lon": 37.47,
+        "point_id": "10118070",
+        "stop_seq": 2,
+        "district": "Хорошево-Мневники",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Маршала Тухачевского ул, 37/21 (УК МКД)",
+        "lat": 55.78,
+        "lon": 37.47,
+        "point_id": "10118551",
+        "stop_seq": 3,
+        "district": "Хорошево-Мневники",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Генерала Карбышева, 11 (к7) (ЗВОНИТЬ ЗА 15 МИНУТ- 79636146118, +7 903 113-63-03) (СТРОГО С 7:00 ДО 23:00)",
+        "lat": 55.78,
+        "lon": 37.47,
+        "point_id": "10490007",
+        "stop_seq": 4,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Генерала Карбышева, 11 (к7) (ЗВОНИТЬ ЗА 15 МИНУТ- 79636146118, +7 903 113-63-03) (СТРОГО С 7:00 ДО 23:00)",
+        "lat": 55.78,
+        "lon": 37.47,
+        "point_id": "10120128",
+        "stop_seq": 5,
+        "district": "Хорошево-Мневники",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Маршала Жукова пр-т, 56 (ГБУ МКД)",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10119522",
+        "stop_seq": 6,
+        "district": "Хорошево-Мневники",
+        "time_window": "09:30 - 11:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Маршала Жукова пр-т, 60с2",
+        "lat": 55.78,
+        "lon": 37.46,
+        "point_id": "10119807",
+        "stop_seq": 7,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Живописная ул., д. 30, корп. 3.",
+        "lat": 55.79,
+        "lon": 37.46,
+        "point_id": "10120335",
+        "stop_seq": 8,
+        "district": "Щукино",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Живописная ул., д. 36, корп. 2",
+        "lat": 55.79,
+        "lon": 37.46,
+        "point_id": "10118200",
+        "stop_seq": 9,
+        "district": "Щукино",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Паршина ул, 25 к 1 (ГБУ МКД)",
+        "lat": 55.79,
+        "lon": 37.46,
+        "point_id": "10118268",
+        "stop_seq": 10,
+        "district": "Хорошево-Мневники",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Паршина ул., д. 6",
+        "lat": 55.79,
+        "lon": 37.46,
+        "point_id": "10474173",
+        "stop_seq": 11,
+        "district": "Хорошево-Мневники",
+        "time_window": "05:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Паршина ул., 4",
+        "lat": 55.79,
+        "lon": 37.46,
+        "point_id": "10474172",
+        "stop_seq": 12,
+        "district": "Хорошево-Мневники",
+        "time_window": "05:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Паршина ул, 17 (ГБУ МКД) ЗВОНИТЬ за 15м - ВЫКАТЯТ",
+        "lat": 55.79,
+        "lon": 37.46,
+        "point_id": "10474169",
+        "stop_seq": 13,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Паршина ул, 17 (ГБУ МКД) ЗВОНИТЬ за 15м - ВЫКАТЯТ",
+        "lat": 55.79,
+        "lon": 37.46,
+        "point_id": "10118296",
+        "stop_seq": 14,
+        "district": "Хорошево-Мневники",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Маршала Тухачевского ул., д. 49 (Выкатные)",
+        "lat": 55.79,
+        "lon": 37.46,
+        "point_id": "10472114",
+        "stop_seq": 15,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "улица Маршала Тухачевского, 49 (+7 925 085-97-56 ЗВОНИТЬ ЗА 30 МИН ПРОПУСК ПОЛУЧИТЬ НА ПРОХОДНОЙ)",
+        "lat": 55.79,
+        "lon": 37.46,
+        "point_id": "10120605",
+        "stop_seq": 16,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Маршала Тухачевского ул., д. 49 (КП)",
+        "lat": 55.79,
+        "lon": 37.46,
+        "point_id": "10472107",
+        "stop_seq": 17,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Маршала Тухачевского ул., д. 49 (Выкатные)",
+        "lat": 55.79,
+        "lon": 37.46,
+        "point_id": "10118686",
+        "stop_seq": 18,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Маршала Тухачевского ул., д. 49 (КП)",
+        "lat": 55.79,
+        "lon": 37.46,
+        "point_id": "10117589",
+        "stop_seq": 19,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Паршина ул., 39с2",
+        "lat": 55.79,
+        "lon": 37.45,
+        "point_id": "10474171",
+        "stop_seq": 20,
+        "district": "Хорошево-Мневники",
+        "time_window": "07:00 - 19:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Паршина ул., 39с2",
+        "lat": 55.79,
+        "lon": 37.45,
+        "point_id": "10474170",
+        "stop_seq": 21,
+        "district": "Хорошево-Мневники",
+        "time_window": "12:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Живописная ул. 21А",
+        "lat": 55.79,
+        "lon": 37.45,
+        "point_id": "10119829",
+        "stop_seq": 22,
+        "district": "Хорошево-Мневники",
+        "time_window": "10:30 - 12:30"
+      }
+    ],
+    "end": {
+      "point_type": "END",
+      "address": "Химки, Московская область",
+      "lat": 55.899135,
+      "lon": 37.498469,
+      "point_id": null,
+      "stop_seq": null,
+      "district": null,
+      "time_window": null
+    }
+  },
+  {
+    "vehicle_id": "М564НМ790",
+    "trip_id": 1,
+    "start": {
+      "point_type": "START",
+      "address": "ул. Вагоноремонтная",
+      "lat": 55.902619,
+      "lon": 37.529597,
+      "point_id": null,
+      "stop_seq": null,
+      "district": null,
+      "time_window": null
+    },
+    "stops": [
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 41, корп. 1",
+        "lat": 55.86,
+        "lon": 37.35,
+        "point_id": "10117622",
+        "stop_seq": 1,
+        "district": "Митино",
+        "time_window": "07:30 - 09:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 21, корп.1",
+        "lat": 55.84,
+        "lon": 37.36,
+        "point_id": "10118174",
+        "stop_seq": 2,
+        "district": "Митино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Барышиха ул., д. 46",
+        "lat": 55.86,
+        "lon": 37.34,
+        "point_id": "10117662",
+        "stop_seq": 3,
+        "district": "Митино",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Дубравная ул., д. 35",
+        "lat": 55.84,
+        "lon": 37.36,
+        "point_id": "10118288",
+        "stop_seq": 4,
+        "district": "Митино",
+        "time_window": "08:30 - 10:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 31 (под.10)",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10117826",
+        "stop_seq": 5,
+        "district": "Митино",
+        "time_window": "12:30 - 14:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Дубравная ул., д. 43",
+        "lat": 55.84,
+        "lon": 37.36,
+        "point_id": "10118317",
+        "stop_seq": 6,
+        "district": "Митино",
+        "time_window": "08:30 - 10:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 53, корп. 1",
+        "lat": 55.85,
+        "lon": 37.35,
+        "point_id": "10117831",
+        "stop_seq": 7,
+        "district": "Митино",
+        "time_window": "07:30 - 09:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "3-й Митинский пер., д. 1",
+        "lat": 55.85,
+        "lon": 37.35,
+        "point_id": "10117878",
+        "stop_seq": 8,
+        "district": "Митино",
+        "time_window": "08:00 - 10:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Барышиха ул., д. 44 (БУНКЕР-Строго после 8:00!)",
+        "lat": 55.86,
+        "lon": 37.34,
+        "point_id": "10118345",
+        "stop_seq": 9,
+        "district": "Митино",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Дубравная ул., д. 38",
+        "lat": 55.84,
+        "lon": 37.36,
+        "point_id": "10117949",
+        "stop_seq": 10,
+        "district": "Митино",
+        "time_window": "08:30 - 10:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Дубравная ул., д. 36",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10118378",
+        "stop_seq": 11,
+        "district": "Митино",
+        "time_window": "08:30 - 10:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Ангелов пер. д. 13",
+        "lat": 55.85,
+        "lon": 37.34,
+        "point_id": "10117982",
+        "stop_seq": 12,
+        "district": "Митино",
+        "time_window": "08:00 - 10:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Ангелов пер., д. 7, корп. 4",
+        "lat": 55.85,
+        "lon": 37.35,
+        "point_id": "10118397",
+        "stop_seq": 13,
+        "district": "Митино",
+        "time_window": "08:00 - 10:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 28, корп. 5, под. 5",
+        "lat": 55.84,
+        "lon": 37.37,
+        "point_id": "10118445",
+        "stop_seq": 14,
+        "district": "Митино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Дубравная ул., д. 40",
+        "lat": 55.84,
+        "lon": 37.35,
+        "point_id": "10118477",
+        "stop_seq": 15,
+        "district": "Митино",
+        "time_window": "08:30 - 10:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 28, корп. 4, под. 5",
+        "lat": 55.84,
+        "lon": 37.37,
+        "point_id": "10118558",
+        "stop_seq": 16,
+        "district": "Митино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 45",
+        "lat": 55.86,
+        "lon": 37.35,
+        "point_id": "10118768",
+        "stop_seq": 17,
+        "district": "Митино",
+        "time_window": "07:30 - 09:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 19",
+        "lat": 55.84,
+        "lon": 37.37,
+        "point_id": "10119143",
+        "stop_seq": 18,
+        "district": "Митино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Дубравная ул., д. 40, корп. 2",
+        "lat": 55.85,
+        "lon": 37.35,
+        "point_id": "10119248",
+        "stop_seq": 19,
+        "district": "Митино",
+        "time_window": "08:30 - 10:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Ангелов пер. д. 11",
+        "lat": 55.85,
+        "lon": 37.34,
+        "point_id": "10119267",
+        "stop_seq": 20,
+        "district": "Митино",
+        "time_window": "08:00 - 10:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 23",
+        "lat": 55.84,
+        "lon": 37.37,
+        "point_id": "10119277",
+        "stop_seq": 21,
+        "district": "Митино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Ангелов пер., д. 5",
+        "lat": 55.85,
+        "lon": 37.35,
+        "point_id": "10119345",
+        "stop_seq": 22,
+        "district": "Митино",
+        "time_window": "07:30 - 09:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Ангелов пер., д. 9",
+        "lat": 55.85,
+        "lon": 37.35,
+        "point_id": "10119353",
+        "stop_seq": 23,
+        "district": "Митино",
+        "time_window": "08:00 - 10:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Барышиха ул., д. 40, корп. 1",
+        "lat": 55.85,
+        "lon": 37.34,
+        "point_id": "10119365",
+        "stop_seq": 24,
+        "district": "Митино",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 45, корп. 1",
+        "lat": 55.85,
+        "lon": 37.35,
+        "point_id": "10119518",
+        "stop_seq": 25,
+        "district": "Митино",
+        "time_window": "08:00 - 10:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 27 (СТРОГО с 7:00 до 23:00, ШТРАФ)",
+        "lat": 55.84,
+        "lon": 37.36,
+        "point_id": "10119602",
+        "stop_seq": 26,
+        "district": "Митино",
+        "time_window": "08:30 - 10:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 41 (1 КП)",
+        "lat": 55.86,
+        "lon": 37.35,
+        "point_id": "10119705",
+        "stop_seq": 27,
+        "district": "Митино",
+        "time_window": "07:30 - 09:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Ангелов пер., д.1",
+        "lat": 55.85,
+        "lon": 37.35,
+        "point_id": "10119720",
+        "stop_seq": 28,
+        "district": "Митино",
+        "time_window": "07:30 - 09:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 47 (1 КП)",
+        "lat": 55.86,
+        "lon": 37.34,
+        "point_id": "10119748",
+        "stop_seq": 29,
+        "district": "Митино",
+        "time_window": "07:30 - 09:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Барышиха ул., д. 42",
+        "lat": 55.85,
+        "lon": 37.34,
+        "point_id": "10119769",
+        "stop_seq": 30,
+        "district": "Митино",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 17, корп. 3",
+        "lat": 55.84,
+        "lon": 37.37,
+        "point_id": "10119794",
+        "stop_seq": 31,
+        "district": "Митино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 20",
+        "lat": 55.84,
+        "lon": 37.37,
+        "point_id": "10119796",
+        "stop_seq": 32,
+        "district": "Митино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Дубравная ул., д. 41, корп. 2",
+        "lat": 55.84,
+        "lon": 37.36,
+        "point_id": "10119877",
+        "stop_seq": 33,
+        "district": "Митино",
+        "time_window": "08:30 - 10:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 41 (2 КП)",
+        "lat": 55.86,
+        "lon": 37.35,
+        "point_id": "10119889",
+        "stop_seq": 34,
+        "district": "Митино",
+        "time_window": "07:30 - 09:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 17, корп. 1",
+        "lat": 55.84,
+        "lon": 37.37,
+        "point_id": "10120032",
+        "stop_seq": 35,
+        "district": "Митино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 15",
+        "lat": 55.84,
+        "lon": 37.37,
+        "point_id": "10120188",
+        "stop_seq": 36,
+        "district": "Митино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 33, корп. 2",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10120268",
+        "stop_seq": 37,
+        "district": "Митино",
+        "time_window": "08:00 - 10:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 57",
+        "lat": 55.86,
+        "lon": 37.35,
+        "point_id": "10120321",
+        "stop_seq": 38,
+        "district": "Митино",
+        "time_window": "07:30 - 09:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Дубравная ул., д. 37 (СТРОГО ПОСЛЕ 7:00, ШТРАФ)",
+        "lat": 55.84,
+        "lon": 37.36,
+        "point_id": "10120362",
+        "stop_seq": 39,
+        "district": "Митино",
+        "time_window": "08:30 - 10:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 28, корп. 5, под. 1",
+        "lat": 55.84,
+        "lon": 37.37,
+        "point_id": "10120366",
+        "stop_seq": 40,
+        "district": "Митино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Ангелов пер, д 9 к 1 (ГБУЗ \"ДГП № 140 ДЗМ\")",
+        "lat": 55.85,
+        "lon": 37.35,
+        "point_id": "10474233",
+        "stop_seq": 41,
+        "district": "Митино",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., 45к3",
+        "lat": 55.85,
+        "lon": 37.35,
+        "point_id": "10474235",
+        "stop_seq": 42,
+        "district": "Митино",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 35",
+        "lat": 55.85,
+        "lon": 37.35,
+        "point_id": "10474721",
+        "stop_seq": 43,
+        "district": "Митино",
+        "time_window": "05:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 53",
+        "lat": 55.85,
+        "lon": 37.35,
+        "point_id": "10474746",
+        "stop_seq": 44,
+        "district": "Митино",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Ангелов пер., д. 2",
+        "lat": 55.85,
+        "lon": 37.35,
+        "point_id": "10474748",
+        "stop_seq": 45,
+        "district": "Митино",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Барышиха ул., д. 26",
+        "lat": 55.85,
+        "lon": 37.35,
+        "point_id": "10474756",
+        "stop_seq": 46,
+        "district": "Митино",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "3-й Митинский пер., д. 7",
+        "lat": 55.85,
+        "lon": 37.35,
+        "point_id": "10474758",
+        "stop_seq": 47,
+        "district": "Митино",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Барышиха ул., д. 28",
+        "lat": 55.85,
+        "lon": 37.34,
+        "point_id": "10474760",
+        "stop_seq": 48,
+        "district": "Митино",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Барышиха ул., д. 32, корп. 1",
+        "lat": 55.85,
+        "lon": 37.35,
+        "point_id": "10474762",
+        "stop_seq": 49,
+        "district": "Митино",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Барышиха ул., д. 34",
+        "lat": 55.85,
+        "lon": 37.34,
+        "point_id": "10474764",
+        "stop_seq": 50,
+        "district": "Митино",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Ангелов пер., д. 6",
+        "lat": 55.85,
+        "lon": 37.35,
+        "point_id": "10474750",
+        "stop_seq": 51,
+        "district": "Митино",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Ангелов пер., д. 6, корп. 3",
+        "lat": 55.86,
+        "lon": 37.35,
+        "point_id": "10474752",
+        "stop_seq": 52,
+        "district": "Митино",
+        "time_window": "07:00 - 09:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Ангелов пер., д. 8",
+        "lat": 55.85,
+        "lon": 37.35,
+        "point_id": "10474754",
+        "stop_seq": 53,
+        "district": "Митино",
+        "time_window": "07:00 - 09:00"
+      }
+    ],
+    "end": {
+      "point_type": "END",
+      "address": "Химки, Московская область",
+      "lat": 55.899135,
+      "lon": 37.498469,
+      "point_id": null,
+      "stop_seq": null,
+      "district": null,
+      "time_window": null
+    }
+  },
+  {
+    "vehicle_id": "М564НМ790",
+    "trip_id": 2,
+    "start": {
+      "point_type": "START",
+      "address": "ул. Вагоноремонтная",
+      "lat": 55.902619,
+      "lon": 37.529597,
+      "point_id": null,
+      "stop_seq": null,
+      "district": null,
+      "time_window": null
+    },
+    "stops": [
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 28, корп. 4, под. 3",
+        "lat": 55.85,
+        "lon": 37.37,
+        "point_id": "10117983",
+        "stop_seq": 1,
+        "district": "Митино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 25, корп. 1",
+        "lat": 55.84,
+        "lon": 37.36,
+        "point_id": "10117985",
+        "stop_seq": 2,
+        "district": "Митино",
+        "time_window": "08:30 - 10:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Ангелов пер., д. 7, корп. 1",
+        "lat": 55.85,
+        "lon": 37.35,
+        "point_id": "10118059",
+        "stop_seq": 3,
+        "district": "Митино",
+        "time_window": "08:00 - 10:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 33",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10118162",
+        "stop_seq": 4,
+        "district": "Митино",
+        "time_window": "12:30 - 14:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 28, корп. 4, под. 1",
+        "lat": 55.85,
+        "lon": 37.37,
+        "point_id": "10118321",
+        "stop_seq": 5,
+        "district": "Митино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 12",
+        "lat": 55.84,
+        "lon": 37.38,
+        "point_id": "10118447",
+        "stop_seq": 6,
+        "district": "Митино",
+        "time_window": "10:30 - 12:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 35, корп. 1",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10118732",
+        "stop_seq": 7,
+        "district": "Митино",
+        "time_window": "12:30 - 14:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 28, корп. 3, под. 3",
+        "lat": 55.85,
+        "lon": 37.37,
+        "point_id": "10119186",
+        "stop_seq": 8,
+        "district": "Митино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "ул Митинская, д 34 (8-903-687-70-26 ОБЯЗАТЕЛЬНО ЗВОНИТЬ ГБУЗ \"ДГП № 140 ДЗМ\")",
+        "lat": 55.85,
+        "lon": 37.37,
+        "point_id": "10119419",
+        "stop_seq": 9,
+        "district": "Митино",
+        "time_window": "07:00 - 23:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 28, корп. 3, под. 1",
+        "lat": 55.85,
+        "lon": 37.37,
+        "point_id": "10119617",
+        "stop_seq": 10,
+        "district": "Митино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 36",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10119751",
+        "stop_seq": 11,
+        "district": "Митино",
+        "time_window": "11:30 - 13:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 26",
+        "lat": 55.84,
+        "lon": 37.37,
+        "point_id": "10119851",
+        "stop_seq": 12,
+        "district": "Митино",
+        "time_window": "09:00 - 11:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 27, корп. 1 (2 КП)",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10120226",
+        "stop_seq": 13,
+        "district": "Митино",
+        "time_window": "12:30 - 14:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 27, корп. 1 (1 КП)",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10120281",
+        "stop_seq": 14,
+        "district": "Митино",
+        "time_window": "12:30 - 14:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Центральная ул., д. 2",
+        "lat": 55.85,
+        "lon": 37.39,
+        "point_id": "10117760",
+        "stop_seq": 15,
+        "district": "Митино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Центральная ул., д. 19",
+        "lat": 55.85,
+        "lon": 37.38,
+        "point_id": "10117719",
+        "stop_seq": 16,
+        "district": "Митино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 16, корп. 1",
+        "lat": 55.84,
+        "lon": 37.39,
+        "point_id": "10119302",
+        "stop_seq": 17,
+        "district": "Митино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 14",
+        "lat": 55.84,
+        "lon": 37.39,
+        "point_id": "10117619",
+        "stop_seq": 18,
+        "district": "Митино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 10",
+        "lat": 55.84,
+        "lon": 37.39,
+        "point_id": "10120028",
+        "stop_seq": 19,
+        "district": "Митино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 6",
+        "lat": 55.84,
+        "lon": 37.39,
+        "point_id": "10120171",
+        "stop_seq": 20,
+        "district": "Митино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 6, корп. 4",
+        "lat": 55.84,
+        "lon": 37.39,
+        "point_id": "10117599",
+        "stop_seq": 21,
+        "district": "Митино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д.6 корп.6",
+        "lat": 55.84,
+        "lon": 37.39,
+        "point_id": "10119054",
+        "stop_seq": 22,
+        "district": "Митино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 6, корп. 3",
+        "lat": 55.84,
+        "lon": 37.39,
+        "point_id": "10119579",
+        "stop_seq": 23,
+        "district": "Митино",
+        "time_window": "10:00 - 12:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Новотушинский пр-д, д. 6, корп. 1",
+        "lat": 55.84,
+        "lon": 37.38,
+        "point_id": "10474733",
+        "stop_seq": 24,
+        "district": "Митино",
+        "time_window": "10:30 - 12:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Новотушинский пр-д, д. 8, корп. 1",
+        "lat": 55.84,
+        "lon": 37.38,
+        "point_id": "10117869",
+        "stop_seq": 25,
+        "district": "Митино",
+        "time_window": "10:30 - 12:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 21, под. 8",
+        "lat": 55.85,
+        "lon": 37.37,
+        "point_id": "10118360",
+        "stop_seq": 26,
+        "district": "Митино",
+        "time_window": "11:00 - 13:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 28, корп. 2, под. 5",
+        "lat": 55.85,
+        "lon": 37.37,
+        "point_id": "10118159",
+        "stop_seq": 27,
+        "district": "Митино",
+        "time_window": "11:00 - 13:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 28, под.1",
+        "lat": 55.85,
+        "lon": 37.37,
+        "point_id": "10118794",
+        "stop_seq": 28,
+        "district": "Митино",
+        "time_window": "11:00 - 13:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 28, под. 4",
+        "lat": 55.84,
+        "lon": 37.37,
+        "point_id": "10119141",
+        "stop_seq": 29,
+        "district": "Митино",
+        "time_window": "11:00 - 13:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 28, под. 5",
+        "lat": 55.84,
+        "lon": 37.37,
+        "point_id": "10119792",
+        "stop_seq": 30,
+        "district": "Митино",
+        "time_window": "11:00 - 13:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 34, корп. 1",
+        "lat": 55.85,
+        "lon": 37.37,
+        "point_id": "10119423",
+        "stop_seq": 31,
+        "district": "Митино",
+        "time_window": "11:30 - 13:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 38, корп.1",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10474735",
+        "stop_seq": 32,
+        "district": "Митино",
+        "time_window": "12:00 - 14:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., 25к3",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10474737",
+        "stop_seq": 33,
+        "district": "Митино",
+        "time_window": "07:00 - 19:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 25",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10117704",
+        "stop_seq": 34,
+        "district": "Митино",
+        "time_window": "11:30 - 13:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 23",
+        "lat": 55.85,
+        "lon": 37.37,
+        "point_id": "10118385",
+        "stop_seq": 35,
+        "district": "Митино",
+        "time_window": "11:30 - 13:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 21, под. 1",
+        "lat": 55.85,
+        "lon": 37.37,
+        "point_id": "10118482",
+        "stop_seq": 36,
+        "district": "Митино",
+        "time_window": "11:30 - 13:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 36, корп. 1",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10119876",
+        "stop_seq": 37,
+        "district": "Митино",
+        "time_window": "12:00 - 14:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 38",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10120301",
+        "stop_seq": 38,
+        "district": "Митино",
+        "time_window": "12:00 - 14:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 40 (КП1)",
+        "lat": 55.86,
+        "lon": 37.36,
+        "point_id": "10119718",
+        "stop_seq": 39,
+        "district": "Митино",
+        "time_window": "12:00 - 14:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 40 (КП2)",
+        "lat": 55.86,
+        "lon": 37.36,
+        "point_id": "10118633",
+        "stop_seq": 40,
+        "district": "Митино",
+        "time_window": "12:00 - 14:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Муравская ул., 1 (РОЖДЕСТВЕНО)",
+        "lat": 55.86,
+        "lon": 37.36,
+        "point_id": "10119005",
+        "stop_seq": 41,
+        "district": "Митино",
+        "time_window": "12:00 - 14:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Муравская ул., д. 17",
+        "lat": 55.86,
+        "lon": 37.37,
+        "point_id": "10118836",
+        "stop_seq": 42,
+        "district": "Митино",
+        "time_window": "12:00 - 14:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Муравская ул., д. 15",
+        "lat": 55.86,
+        "lon": 37.37,
+        "point_id": "10120318",
+        "stop_seq": 43,
+        "district": "Митино",
+        "time_window": "12:00 - 14:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Муравская ул., д. 38, корп. 1 (БУНКЕР СТРОГО С 12:00 ДО 16:00)",
+        "lat": 55.86,
+        "lon": 37.37,
+        "point_id": "10117798",
+        "stop_seq": 44,
+        "district": "Митино",
+        "time_window": "12:00 - 14:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Муравская ул., д. 38, корп. 1 (возле корп. 2) (БУНКЕР СТРОГО С 12:00 ДО 16:00)",
+        "lat": 55.86,
+        "lon": 37.37,
+        "point_id": "10119806",
+        "stop_seq": 45,
+        "district": "Митино",
+        "time_window": "12:00 - 14:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Муравская ул., д. 38Б, корп. 4 (8-977-354-57-02)",
+        "lat": 55.86,
+        "lon": 37.37,
+        "point_id": "10120040",
+        "stop_seq": 46,
+        "district": "Митино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Муравская ул., д. 42, корп. 1 (БУНКЕР СТРОГО С 12:00 ДО 16:00)",
+        "lat": 55.86,
+        "lon": 37.37,
+        "point_id": "10119003",
+        "stop_seq": 47,
+        "district": "Митино",
+        "time_window": "12:00 - 14:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Муравская ул., д. 42, корп. 3 (БУНКЕР СТРОГО С 12:00 ДО 16:00)",
+        "lat": 55.86,
+        "lon": 37.37,
+        "point_id": "10118743",
+        "stop_seq": 48,
+        "district": "Митино",
+        "time_window": "12:00 - 14:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Муравская ул., д. 44, корп. 3 (БУНКЕР СТРОГО С 12:00 ДО 16:00)",
+        "lat": 55.86,
+        "lon": 37.38,
+        "point_id": "10119852",
+        "stop_seq": 49,
+        "district": "Митино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Муравская ул., 46 корп. 3 (+79895717330: +79777556451) ЗВОНИТЬ ПРИ ПРОБЛЕМАХ ПОГРУЗКИ ИЛИ ПРОЕЗДА!",
+        "lat": 55.86,
+        "lon": 37.38,
+        "point_id": "10119368",
+        "stop_seq": 50,
+        "district": "Митино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Муравская ул., 46 корп. 1",
+        "lat": 55.86,
+        "lon": 37.38,
+        "point_id": "10119138",
+        "stop_seq": 51,
+        "district": "Митино",
+        "time_window": "12:00 - 14:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 48, корп. 1",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10120273",
+        "stop_seq": 52,
+        "district": "Митино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 52, корп. 2",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10120160",
+        "stop_seq": 53,
+        "district": "Митино",
+        "time_window": "12:30 - 14:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 37",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10118003",
+        "stop_seq": 54,
+        "district": "Митино",
+        "time_window": "12:30 - 14:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Пятницкое ш., д. 35",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10119822",
+        "stop_seq": 55,
+        "district": "Митино",
+        "time_window": "12:30 - 14:30"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 40, корп. 1",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10120254",
+        "stop_seq": 56,
+        "district": "Митино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул. 42",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10119310",
+        "stop_seq": 57,
+        "district": "Митино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 44",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10118361",
+        "stop_seq": 58,
+        "district": "Митино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 46 (КП 2)",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10120385",
+        "stop_seq": 59,
+        "district": "Митино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 46 (СТРОГО ПОСЛЕ 7:00, ШТРАФ)",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10118415",
+        "stop_seq": 60,
+        "district": "Митино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 52",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10118151",
+        "stop_seq": 61,
+        "district": "Митино",
+        "time_window": "13:00 - 15:00"
+      },
+      {
+        "point_type": "STOP",
+        "address": "Митинская ул., д. 33, корп. 2",
+        "lat": 55.85,
+        "lon": 37.36,
+        "point_id": "10488564",
+        "stop_seq": 62,
+        "district": "Митино",
+        "time_window": "08:00 - 10:00"
+      }
+    ],
+    "end": {
+      "point_type": "END",
+      "address": "Химки, Московская область",
+      "lat": 55.899135,
+      "lon": 37.498469,
+      "point_id": null,
+      "stop_seq": null,
+      "district": null,
+      "time_window": null
+    }
+  }
+]
