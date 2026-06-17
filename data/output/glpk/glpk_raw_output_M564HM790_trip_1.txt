@@ -1,10 +1,10 @@
 GLPSOL: GLPK LP/MIP Solver, v4.65
 Parameter(s) specified in the command line:
- -m C:\Users\Welcome\uir_backend\models\tsp_path.mod -d C:\Users\Welcome\uir_backend\data\output\glpk\trip_M564HM790_trip_1.dat
-Reading model section from C:\Users\Welcome\uir_backend\models\tsp_path.mod...
-C:\Users\Welcome\uir_backend\models\tsp_path.mod:58: warning: final NL missing before end of file
+ -m C:\Users\Welcome\Desktop\uir_backend\models\tsp_path.mod -d C:\Users\Welcome\Desktop\uir_backend\data\output\glpk\trip_M564HM790_trip_1.dat
+Reading model section from C:\Users\Welcome\Desktop\uir_backend\models\tsp_path.mod...
+C:\Users\Welcome\Desktop\uir_backend\models\tsp_path.mod:58: warning: final NL missing before end of file
 58 lines were read
-Reading data section from C:\Users\Welcome\uir_backend\data\output\glpk\trip_M564HM790_trip_1.dat...
+Reading data section from C:\Users\Welcome\Desktop\uir_backend\data\output\glpk\trip_M564HM790_trip_1.dat...
 196 lines were read
 Generating TotalCost...
 Generating StartOut...
@@ -46,8 +46,8 @@ Long-step dual simplex will be used
 + 62109: >>>>>   4.430300000e+01 >=   2.547140000e+01  42.5% (545; 6898)
 + 65596: mip =   4.430300000e+01 >=     tree is empty   0.0% (0; 9667)
 INTEGER OPTIMAL SOLUTION FOUND
-Time used:   1.0 secs
-Memory used: 2.7 Mb (2796765 bytes)
+Time used:   1.8 secs
+Memory used: 2.7 Mb (2796773 bytes)
 Objective_km=44.303000
 SelectedArcsBegin
 U1,U5,20.370000
